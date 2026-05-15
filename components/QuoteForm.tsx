@@ -20,7 +20,7 @@ export default function QuoteForm({ compact = false, businessType = '' }: QuoteF
         <input type="email" name="email" required placeholder="Email address" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
         <input type="tel" name="phone" placeholder="Phone (optional)" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
         <button type="submit" className="w-full py-3 bg-teal-600 text-white font-bold rounded-lg hover:bg-teal-700 transition text-sm">
-          Get My Free Quote →
+          Get My Quote →
         </button>
         <p className="text-xs text-slate-500 text-center">Free advice. No obligation. Licensed NZ brokers.</p>
       </form>
