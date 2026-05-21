@@ -3,4 +3,4 @@ Allow: /
 Disallow: /thank-you/
 Disallow: /api/
 
-Sitemap: https://cybercover.co.nz/sitemap.xml
+Sitemap: https://www.cybercover.co.nz/sitemap.xml

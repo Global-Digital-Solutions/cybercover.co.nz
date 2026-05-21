@@ -105,15 +105,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Article',
-        mainEntityOfPage: { '@type': 'WebPage', '@id': `https://cybercover.co.nz/blog/${slug}/` },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.cybercover.co.nz/blog/${slug}/` },
         headline: post.title,
         description: post.excerpt,
-        image: post.image || 'https://cybercover.co.nz/og-image.png',
+        image: post.image || 'https://www.cybercover.co.nz/og-image.png',
         datePublished: post.date,
         dateModified: post.date,
-        url: `https://cybercover.co.nz/blog/${slug}/`,
-        author: { '@type': 'Organization', name: 'CyberCover', url: 'https://cybercover.co.nz' },
-        publisher: { '@type': 'Organization', name: 'CyberCover', url: 'https://cybercover.co.nz', logo: { '@type': 'ImageObject', url: 'https://cybercover.co.nz/logo.png', width: 200, height: 60 } },
+        url: `https://www.cybercover.co.nz/blog/${slug}/`,
+        author: { '@type': 'Organization', name: 'CyberCover', url: 'https://www.cybercover.co.nz' },
+        publisher: { '@type': 'Organization', name: 'CyberCover', url: 'https://www.cybercover.co.nz', logo: { '@type': 'ImageObject', url: 'https://www.cybercover.co.nz/logo.png', width: 200, height: 60 } },
         articleSection: post.category,
         inLanguage: 'en-NZ',
       })}} />
@@ -121,9 +121,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cybercover.co.nz/' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://cybercover.co.nz/blog/' },
-          { '@type': 'ListItem', position: 3, name: post.title, item: `https://cybercover.co.nz/blog/${slug}/` },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cybercover.co.nz/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.cybercover.co.nz/blog/' },
+          { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.cybercover.co.nz/blog/${slug}/` },
         ],
       })}} />
     </>

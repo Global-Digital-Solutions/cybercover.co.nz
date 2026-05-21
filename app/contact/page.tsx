@@ -58,7 +58,7 @@ export default function ContactPage() {
         '@context': 'https://schema.org',
         '@type': 'ContactPage',
         name: 'Get a Cyber Insurance Quote — CyberCover.co.nz',
-        url: 'https://cybercover.co.nz/contact/',
+        url: 'https://www.cybercover.co.nz/contact/',
         description: 'Get a free cyber insurance quote from licensed NZ brokers.',
       })}} />
     </>

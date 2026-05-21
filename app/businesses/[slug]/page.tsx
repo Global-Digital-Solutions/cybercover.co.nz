@@ -138,7 +138,7 @@ export default async function BusinessTypePage({ params }: { params: Promise<{ s
         '@type': 'Service',
         name: `Cyber Insurance for ${biz.name}`,
         description: biz.whyNeedCyber,
-        provider: { '@type': 'Organization', name: 'CyberCover', url: 'https://cybercover.co.nz' },
+        provider: { '@type': 'Organization', name: 'CyberCover', url: 'https://www.cybercover.co.nz' },
         areaServed: { '@type': 'Country', name: 'New Zealand' },
         serviceType: 'Cyber Insurance Broker Referral',
       })}} />
@@ -146,9 +146,9 @@ export default async function BusinessTypePage({ params }: { params: Promise<{ s
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://cybercover.co.nz/' },
-          { '@type': 'ListItem', position: 2, name: 'Business Types', item: 'https://cybercover.co.nz/businesses/' },
-          { '@type': 'ListItem', position: 3, name: biz.name, item: `https://cybercover.co.nz/businesses/${slug}/` },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cybercover.co.nz/' },
+          { '@type': 'ListItem', position: 2, name: 'Business Types', item: 'https://www.cybercover.co.nz/businesses/' },
+          { '@type': 'ListItem', position: 3, name: biz.name, item: `https://www.cybercover.co.nz/businesses/${slug}/` },
         ],
       })}} />
     </>
