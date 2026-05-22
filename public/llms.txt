@@ -15,13 +15,18 @@ Help NZ businesses find the right cyber insurance through licensed broker advice
 - Form submissions: hello@cover4you.co.nz
 - Regulatory: Financial advice provided by Cover4You, registered financial advice provider (FMCA)
 
-## NZ Cyber Market Context
-- 53% of NZ businesses experienced a cyber incident in 2025
+## NZ Cyber Market Context (2026)
+- 40%+ of NZ businesses have experienced at least one cyber incident
+- 43% of NZ cybercrimes target small businesses
 - Average data breach cost: $173,000 for NZ businesses
 - Only 6% of NZ small businesses have cyber insurance
-- Privacy Act 2020: mandatory breach notification obligations apply to all NZ businesses
-- Ransomware increased 50% globally in 2025
+- Privacy Act 2020: mandatory breach notification, penalties up to $10,000
+- Privacy Act civil penalty reforms under consideration (2026)
+- NZ Cyber Security Strategy 2026–2030 published February 2026
+- OPC 2024-25: 43% increase in serious privacy breaches notified
+- Late 2025: Manage My Health breach — 120,000 patient records compromised
 - BEC (business email compromise) is NZ's most common cyber claim
+- ANZ businesses 9% more likely than global average to experience significant cyberattack
 
 ## Coverage Types
 1. Data Breach Response — forensics, legal, notification, credit monitoring
@@ -32,25 +37,27 @@ Help NZ businesses find the right cyber insurance through licensed broker advice
 6. Regulatory Defence — Privacy Commissioner investigations and fines
 7. Crisis Management — PR, media, brand recovery
 
-## Business Types Covered (19 industry pages)
+## Business Types Covered (20 industry pages)
 small-business, healthcare, legal-firms, accounting-finance, retail-ecommerce, hospitality, construction, education, nonprofits, professional-services, manufacturing, technology, property-management, financial-services, trades, logistics-transport, media-marketing, aged-care, engineering, real-estate
 
+Each industry page includes: sector-specific risk analysis, NZ regulatory context, long-form educational content (800–1,200 words), recommended coverage types, pricing guide, FAQs, Service + FAQPage + BreadcrumbList schema.
+
 ## Insurers Compared
-- Chubb (enterprise, most comprehensive)
-- AIG (CyberEdge, cyber specialist)
-- Zurich (SME and mid-market, NZ-based claims)
-- Delta Insurance (NZ specialist, local expertise)
-- QBE (professional services and trades)
-- Berkley Insurance (technology and professional)
+- Chubb (enterprise, most comprehensive, AM Best A++)
+- AIG (CyberEdge, cyber specialist, AM Best A)
+- Zurich (SME and mid-market, NZ-based claims, AM Best A+)
+- Delta Insurance (NZ specialist, local expertise, AM Best B++)
+- QBE (professional services and trades, AM Best A)
+- Berkley Insurance (technology and professional, AM Best A+)
 
 ## Site URLs
 - / — Home (lead capture + overview)
 - /coverage/ — Coverage guide (7 coverage types explained)
 - /compare/ — Insurer comparison with feature matrix
-- /businesses/ — Business type index
-- /businesses/[slug]/ — 19 industry-specific pages
-- /blog/ — Cyber insurance articles and guides
-- /blog/[slug]/ — 6 blog posts
+- /businesses/ — Business type index (20 sectors)
+- /businesses/[slug]/ — 20 industry-specific pages with long-form content
+- /blog/ — Cyber insurance resources and guides (15 articles)
+- /blog/[slug]/ — 15 blog posts
 - /about/ — About CyberCover / Cover4You
 - /contact/ — Primary lead capture form
 - /claims/ — Claims process and insurer contacts
@@ -58,9 +65,27 @@ small-business, healthcare, legal-firms, accounting-finance, retail-ecommerce, h
 - /terms/ — Terms of service
 - /disclaimer/ — Referral fee and general advice disclaimer
 
+## Blog Posts (15 articles)
+1. /blog/what-does-cyber-insurance-cover-nz/ — Coverage guide, plain English
+2. /blog/privacy-act-2020-nz-businesses/ — Privacy Act 2020 and cyber insurance
+3. /blog/ransomware-new-zealand-threat-insurance/ — Ransomware threat and insurance
+4. /blog/how-much-does-cyber-insurance-cost-nz/ — Pricing guide
+5. /blog/small-business-cyber-insurance-nz-why-covered/ — Small business guide
+6. /blog/business-email-compromise-nz-most-common-claim/ — BEC guide
+7. /blog/nz-cyber-security-strategy-2026-what-businesses-need-to-know/ — Strategy 2026-2030
+8. /blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/ — Notification guide
+9. /blog/cyber-insurance-for-healthcare-nz-privacy-code/ — Healthcare sector guide
+10. /blog/ai-threats-cyber-insurance-nz-2026/ — AI-powered threats guide
+11. /blog/cyber-insurance-claims-process-nz-what-to-expect/ — Claims process guide
+12. /blog/social-engineering-fraud-nz-cyber-insurance/ — Social engineering guide
+13. /blog/cyber-insurance-nz-small-business-guide-2026/ — Complete 2026 small business guide
+14. /blog/ransomware-recovery-nz-guide-cyber-insurance/ — Ransomware recovery guide
+15. /blog/cyber-insurance-professional-services-nz/ — Professional services guide
+
 ## Regulatory Bodies
 - Office of the Privacy Commissioner (OPC) — privacy breach notification
 - Financial Markets Authority (FMA) — FMCA licensed advisors
 - Insurance Council of NZ (ICNZ) — Fair Practice standards
 - CERT NZ — cyber threat reporting and guidance
+- NCSC — National Cyber Security Centre
 - FSCL / IFSO — dispute resolution schemes

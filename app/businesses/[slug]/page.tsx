@@ -11,7 +11,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const biz = businessTypes.find((b) => b.slug === slug);
   if (!biz) return { title: 'Not Found' };
-  return { title: biz.metaTitle, description: biz.metaDescription };
+  return {
+    title: biz.metaTitle,
+    description: biz.metaDescription,
+    alternates: { canonical: `https://www.cybercover.co.nz/businesses/${slug}/` },
+    openGraph: {
+      title: biz.metaTitle,
+      description: biz.metaDescription,
+      url: `https://www.cybercover.co.nz/businesses/${slug}/`,
+      siteName: 'CyberCover',
+      images: [{ url: biz.image, width: 1200, height: 630, alt: `Cyber Insurance for ${biz.name} NZ` }],
+      type: 'website',
+      locale: 'en_NZ',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: biz.metaTitle,
+      description: biz.metaDescription,
+      images: [biz.image],
+    },
+  };
 }
 
 export default async function BusinessTypePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -28,6 +47,41 @@ export default async function BusinessTypePage({ params }: { params: Promise<{ s
   }
 
   const related = businessTypes.filter((b) => b.slug !== slug).slice(0, 4);
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Cyber Insurance for ${biz.name}`,
+    description: biz.whyNeedCyber,
+    provider: { '@type': 'Organization', name: 'CyberCover', url: 'https://www.cybercover.co.nz' },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    serviceType: 'Cyber Insurance Broker Referral',
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'NZD',
+      description: `Cyber insurance from ${biz.avgPremium}. Free quotes from licensed NZ brokers.`,
+    },
+  };
+
+  const faqSchema = biz.faqs && biz.faqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: biz.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  } : null;
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cybercover.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Business Types', item: 'https://www.cybercover.co.nz/businesses/' },
+      { '@type': 'ListItem', position: 3, name: biz.name, item: `https://www.cybercover.co.nz/businesses/${slug}/` },
+    ],
+  };
 
   return (
     <>
@@ -98,6 +152,47 @@ export default async function BusinessTypePage({ params }: { params: Promise<{ s
               <p className="text-slate-300 text-sm leading-relaxed">Premiums vary based on revenue, data held, security controls in place, and coverage limits selected. Our brokers will find the best rate for your specific profile from multiple insurers.</p>
             </div>
 
+            {/* Long Form Content */}
+            {biz.longFormContent && (
+              <div
+                className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-h2:text-2xl prose-h2:font-extrabold prose-h2:mt-10 prose-h2:mb-4 prose-h3:text-xl prose-h3:font-bold prose-h3:mt-8 prose-h3:mb-3 prose-p:text-slate-700 prose-p:leading-relaxed prose-ul:text-slate-700 prose-li:text-slate-700 prose-strong:text-slate-900"
+                dangerouslySetInnerHTML={{ __html: biz.longFormContent }}
+              />
+            )}
+
+            {/* Author Byline */}
+            <div className="border-t border-slate-200 pt-6">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center flex-shrink-0">
+                  <span className="text-teal-600 text-xl">🛡️</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-slate-900 text-sm">Written by the CyberCover Advisory Team</p>
+                  <p className="text-slate-500 text-sm">Licensed NZ insurance advisors specialising in cyber risk for New Zealand businesses. All content reviewed for accuracy and NZ regulatory compliance.</p>
+                  <p className="text-slate-400 text-xs mt-1">Last updated: May 2026 · <Link href="/contact/" className="text-teal-600 hover:text-teal-700">Get personalised advice →</Link></p>
+                </div>
+              </div>
+            </div>
+
+            {/* FAQs */}
+            {biz.faqs && biz.faqs.length > 0 && (
+              <div>
+                <h2 className="text-2xl font-extrabold text-slate-900 mb-6">Frequently Asked Questions</h2>
+                <div className="space-y-4">
+                  {biz.faqs.map((faq, i) => (
+                    <div key={i} className="border border-slate-200 rounded-xl overflow-hidden">
+                      <div className="bg-slate-50 px-5 py-4">
+                        <p className="font-semibold text-slate-900">{faq.q}</p>
+                      </div>
+                      <div className="px-5 py-4">
+                        <p className="text-slate-700 leading-relaxed text-sm">{faq.a}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {/* Related Types */}
             <div>
               <h2 className="text-xl font-bold text-slate-900 mb-4">Other Business Types</h2>
@@ -124,33 +219,29 @@ export default async function BusinessTypePage({ params }: { params: Promise<{ s
             <div className="bg-white border border-slate-200 rounded-2xl p-5 mb-6">
               <h3 className="font-bold text-slate-900 mb-3">Quick Links</h3>
               <ul className="space-y-2 text-sm">
-                {[['Coverage Guide', '/coverage/'], ['Compare Insurers', '/compare/'], ['Blog & Guides', '/blog/'], ['Contact Us', '/contact/']].map(([label, href]) => (
+                {[['Coverage Guide', '/coverage/'], ['Compare Insurers', '/compare/'], ['Resources & Guides', '/blog/'], ['Contact Us', '/contact/']].map(([label, href]) => (
                   <li key={href}><Link href={href} className="text-teal-600 hover:text-teal-700 font-semibold">→ {label}</Link></li>
                 ))}
+              </ul>
+            </div>
+
+            <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200">
+              <h3 className="font-bold text-slate-900 mb-3 text-sm">Why CyberCover?</h3>
+              <ul className="space-y-2 text-xs text-slate-600">
+                <li className="flex gap-2"><span className="text-teal-500">✓</span> Licensed NZ insurance advisors</li>
+                <li className="flex gap-2"><span className="text-teal-500">✓</span> Multiple insurers compared</li>
+                <li className="flex gap-2"><span className="text-teal-500">✓</span> Free, no-obligation advice</li>
+                <li className="flex gap-2"><span className="text-teal-500">✓</span> NZ-owned and operated</li>
+                <li className="flex gap-2"><span className="text-teal-500">✓</span> Respond within 1 business day</li>
               </ul>
             </div>
           </aside>
         </div>
       </main>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'Service',
-        name: `Cyber Insurance for ${biz.name}`,
-        description: biz.whyNeedCyber,
-        provider: { '@type': 'Organization', name: 'CyberCover', url: 'https://www.cybercover.co.nz' },
-        areaServed: { '@type': 'Country', name: 'New Zealand' },
-        serviceType: 'Cyber Insurance Broker Referral',
-      })}} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.cybercover.co.nz/' },
-          { '@type': 'ListItem', position: 2, name: 'Business Types', item: 'https://www.cybercover.co.nz/businesses/' },
-          { '@type': 'ListItem', position: 3, name: biz.name, item: `https://www.cybercover.co.nz/businesses/${slug}/` },
-        ],
-      })}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     </>
   );
 }
