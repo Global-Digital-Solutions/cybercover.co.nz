@@ -8,8 +8,14 @@ export const metadata: Metadata = {
   description: 'Expert cyber insurance advice for New Zealand businesses. Compare policies, get free quotes from licensed NZ brokers. Protect your business from data breaches, ransomware and cyber attacks.',
   metadataBase: new URL('https://www.cybercover.co.nz'),
   icons: {
-    icon: '/icon.svg',
-    shortcut: '/icon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    other: [{ rel: 'manifest', url: '/site.webmanifest' }],
   },
   openGraph: {
     siteName: 'CyberCover.co.nz',
