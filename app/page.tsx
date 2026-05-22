@@ -86,7 +86,7 @@ export default function HomePage() {
                   ].map((item) => (
                     <span
                       key={item}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-teal-500/20 border border-teal-400/40 rounded-full text-teal-200 text-xs font-medium"
+                      className="inline-flex items-center gap-1 px-2.5 py-1.5 bg-teal-500/20 border border-teal-400/40 rounded-full text-teal-200 text-[11px] font-medium whitespace-nowrap"
                     >
                       <span className="text-teal-400 text-[9px] font-bold">✓</span>
                       {item}
