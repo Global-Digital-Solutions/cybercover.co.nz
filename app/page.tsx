@@ -77,21 +77,23 @@ export default function HomePage() {
               <div className="w-full max-w-sm bg-white/10 backdrop-blur-sm border-2 border-teal-500/60 rounded-2xl p-6 shadow-xl shadow-teal-900/20">
                 <p className="text-xs font-bold text-teal-400 uppercase tracking-widest mb-1">Free · No obligation</p>
                 <h2 className="text-lg font-extrabold text-white mb-4">Get a Cyber Insurance Quote</h2>
-                <ul className="space-y-1.5 mb-5">
+                <div className="flex flex-wrap gap-2 mb-5">
                   {[
-                    'Licensed NZ insurance advisors',
-                    '6+ insurers compared for you',
-                    'Respond within 1 business day',
+                    'Licensed NZ advisors',
+                    '6+ insurers compared',
+                    'Fast response',
                     'Cover from $50/month',
-                  ].map((item) => (
-                    <li key={item} className="flex items-center gap-2 text-slate-200 text-xs">
-                      <span className="flex-shrink-0 w-4 h-4 rounded-full bg-teal-500/30 border border-teal-400/50 flex items-center justify-center">
-                        <span className="text-teal-300 text-[9px] font-bold">✓</span>
-                      </span>
+                  ].map((item, i) => (
+                    <span
+                      key={item}
+                      style={{ marginTop: i % 2 === 1 ? '6px' : '0px' }}
+                      className="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-500/20 border border-teal-400/40 rounded-full text-teal-200 text-xs font-medium"
+                    >
+                      <span className="text-teal-400 text-[9px] font-bold">✓</span>
                       {item}
-                    </li>
+                    </span>
                   ))}
-                </ul>
+                </div>
                 <QuoteForm compact />
               </div>
             </div>
