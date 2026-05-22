@@ -77,17 +77,16 @@ export default function HomePage() {
               <div className="w-full max-w-sm bg-white/10 backdrop-blur-sm border-2 border-teal-500/60 rounded-2xl p-6 shadow-xl shadow-teal-900/20">
                 <p className="text-xs font-bold text-teal-400 uppercase tracking-widest mb-1">Free · No obligation</p>
                 <h2 className="text-lg font-extrabold text-white mb-4">Get a Cyber Insurance Quote</h2>
-                <div className="flex flex-wrap gap-2 mb-5">
+                <div className="grid grid-cols-2 gap-2 mb-5">
                   {[
                     'Licensed NZ advisors',
                     '6+ insurers compared',
                     'Fast response',
                     'Cover from $50/month',
-                  ].map((item, i) => (
+                  ].map((item) => (
                     <span
                       key={item}
-                      style={{ marginTop: i % 2 === 1 ? '6px' : '0px' }}
-                      className="inline-flex items-center gap-1.5 px-3 py-1 bg-teal-500/20 border border-teal-400/40 rounded-full text-teal-200 text-xs font-medium"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-teal-500/20 border border-teal-400/40 rounded-full text-teal-200 text-xs font-medium"
                     >
                       <span className="text-teal-400 text-[9px] font-bold">✓</span>
                       {item}
