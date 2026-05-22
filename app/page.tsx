@@ -73,8 +73,25 @@ export default function HomePage() {
                 Get a Free Quote →
               </Link>
             </div>
-            <div className="hidden lg:block">
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
+            <div className="hidden lg:flex lg:justify-end">
+              <div className="w-full max-w-sm bg-white/10 backdrop-blur-sm border-2 border-teal-500/60 rounded-2xl p-6 shadow-xl shadow-teal-900/20">
+                <p className="text-xs font-bold text-teal-400 uppercase tracking-widest mb-1">Free · No obligation</p>
+                <h2 className="text-lg font-extrabold text-white mb-4">Get a Cyber Insurance Quote</h2>
+                <ul className="space-y-1.5 mb-5">
+                  {[
+                    'Licensed NZ insurance advisors',
+                    '6+ insurers compared for you',
+                    'Respond within 1 business day',
+                    'Cover from $50/month',
+                  ].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-slate-200 text-xs">
+                      <span className="flex-shrink-0 w-4 h-4 rounded-full bg-teal-500/30 border border-teal-400/50 flex items-center justify-center">
+                        <span className="text-teal-300 text-[9px] font-bold">✓</span>
+                      </span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
                 <QuoteForm compact />
               </div>
             </div>
