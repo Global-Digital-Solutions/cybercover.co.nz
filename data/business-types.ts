@@ -847,4 +847,252 @@ export const businessTypes: BusinessType[] = [
       { q: 'How can agencies prevent property settlement fraud?', a: 'Implement a mandatory telephone verification process for any banking detail changes during settlement — calling a verified number, not one from an email. Use email signatures and DMARC/DKIM authentication to reduce impersonation. Train staff to treat any change in payment instructions as suspicious. Cyber insurance provides the financial backstop when these controls fail.' },
     ],
   },
+
+  {
+    slug: 'government-local-councils',
+    name: 'Government & Local Councils',
+    shortName: 'Local Councils',
+    icon: '🏛️',
+    image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1200&q=80',
+    description: 'Local councils and government agencies hold sensitive citizen data and run critical services — making them high-value targets for cyber attacks.',
+    whyNeedCyber: `New Zealand's local councils and government agencies have faced significant cyber incidents in recent years. Waikato DHB (2021), NZ Stock Exchange (2020), and multiple smaller councils have all experienced attacks that disrupted critical services and exposed citizen data. Councils hold comprehensive personal information — ratepayer records, building consents, dog registrations, social services data — and run essential infrastructure that cannot afford extended downtime.`,
+    topRisks: ['Ransomware attacking council management systems', 'Citizen data breach (rates, permits, social services)', 'Critical infrastructure disruption', 'Supply chain attacks via IT service providers', 'Social engineering targeting finance teams'],
+    coverageNeeds: ['Incident response and forensic investigation', 'Citizen data breach notification', 'System restoration and recovery', 'Business interruption for essential services', 'Regulatory and OPC investigation defence'],
+    avgPremium: '$200–$800/month',
+    keyFact: 'NZ government and council entities have been specifically targeted by state-sponsored and criminal cyber actors, with GCSB issuing formal warnings to the sector.',
+    metaTitle: 'Cyber Insurance for Local Councils & Government NZ',
+    metaDescription: 'Specialist cyber insurance for NZ local councils and government agencies. Protect citizen data, council systems and essential services from cyber attacks.',
+    longFormContent: `
+<h2>Why Local Councils and Government Agencies Need Cyber Insurance</h2>
+<p>New Zealand's local councils and central government agencies face a unique cyber risk profile. They hold vast amounts of sensitive citizen data, operate critical infrastructure, and often have constrained IT security budgets relative to their data exposure. For cybercriminals and state-sponsored actors alike, government entities represent attractive targets — combining valuable data, potential for disruption, and the political leverage that comes from attacking public services.</p>
+
+<h2>The NZ Government Cyber Threat Landscape</h2>
+<p>The Government Communications Security Bureau (GCSB) has consistently identified the NZ government sector as a priority target. The 2021 Waikato DHB ransomware attack — which disrupted hospital services for weeks and resulted in sensitive patient data being published online — demonstrated the scale of impact that cyber incidents can have on public sector organisations. Multiple NZ councils have since invested significantly in cyber defences following similar threats.</p>
+<p>Local councils face additional exposure through their connected systems: building consent platforms, rates collection software, animal control databases, and resource consent portals all hold personal information about ratepayers. These systems are often managed by third-party vendors, creating supply chain risk that is difficult to control.</p>
+
+<h2>Citizen Data and Privacy Act Obligations</h2>
+<p>Under the Privacy Act 2020, local councils and government agencies face the same mandatory breach notification obligations as private sector organisations. A breach affecting ratepayer records, consent applicants, or social services recipients triggers notification requirements — including individual notification, Office of the Privacy Commissioner reporting, and in serious cases, public disclosure. The reputational and operational costs of managing a large-scale citizen data breach can be substantial.</p>
+
+<h2>Essential Services and Business Interruption</h2>
+<p>When a private business suffers ransomware, the impact is primarily financial. When a council is hit, the impacts are felt across the community: consent processing halts, rates payments cannot be received, contact centres go offline, and field operations lose access to scheduling systems. Cyber insurance for councils must include business interruption cover that accounts for the essential services nature of local government operations.</p>
+
+<h2>Third-Party IT Vendor Risk</h2>
+<p>Many NZ councils rely on shared IT infrastructure and specialised local government software from a small number of vendors. A successful attack on a single vendor can simultaneously affect multiple councils — as seen in attacks on managed service providers internationally. Cyber insurance should include coverage for losses arising from third-party provider incidents.</p>
+
+<h2>What Cyber Insurance for Government Should Cover</h2>
+<p>A cyber insurance policy for NZ local councils and government agencies must address: incident response and digital forensics, citizen data breach notification costs, system recovery and restoration, business interruption for essential services, regulatory investigation defence (OPC and other bodies), and social engineering fraud affecting council financial transactions. Councils with significant rate-setting or development contributions activity should also consider specific coverage for BEC-type financial fraud.</p>
+    `,
+    faqs: [
+      { q: 'Do local councils need separate cyber insurance or is it covered under general insurance?', a: 'General liability and property policies typically exclude cyber incidents entirely. Local councils require a specific cyber insurance policy to cover data breach response, system recovery, business interruption and regulatory investigation costs. Some councils access cyber cover through local government insurance pools, but standalone market options often provide broader coverage.' },
+      { q: 'Are we covered if a third-party IT vendor is breached and it affects our council systems?', a: 'Yes — modern cyber insurance policies include coverage for losses arising from third-party provider incidents (sometimes called contingent business interruption or technology service provider failures). This is particularly important for councils using shared government IT infrastructure or local government-specific software platforms.' },
+      { q: 'What happens if ransomware shuts down our rates and consent systems?', a: 'Cyber insurance responds with immediate incident response services, including a 24/7 breach hotline, forensic investigation, system recovery support, and business interruption payments to cover the operational costs during the outage. Your insurer coordinates with specialist cyber incident responders who work alongside your IT team.' },
+      { q: 'Do we need to notify the Privacy Commissioner if citizen data is breached?', a: 'Under the Privacy Act 2020, councils must notify the OPC of any privacy breach that has caused serious harm, or is likely to do so. The threshold for "serious harm" is lower than most organisations expect — unauthorised disclosure of rates payment history, consent applications or social services records could meet the threshold. Cyber insurance covers legal advice on notification obligations and the costs of the notification process.' },
+    ],
+  },
+
+  {
+    slug: 'childcare-early-learning',
+    name: 'Childcare & Early Learning',
+    shortName: 'Childcare',
+    icon: '🎒',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1200&q=80',
+    description: 'Early childhood education centres and childcare providers hold some of the most sensitive personal data in New Zealand — information about children.',
+    whyNeedCyber: `Children's data is among the most sensitive category of personal information under the Privacy Act 2020. ECE centres collect comprehensive data about enrolled children — names, photos, developmental records, medical needs, family contact details, and authorised pick-up lists. A breach can cause significant harm to families and triggers serious regulatory obligations. Coupled with the financial processing involved in subsidies, payments and payroll, childcare centres face meaningful cyber exposure.`,
+    topRisks: ['Children\'s personal data breach (names, photos, medical info)', 'Parent payment system fraud', 'ECE management software ransomware', 'Phishing targeting centre directors and admin staff', 'Unauthorised access to child-specific records'],
+    coverageNeeds: ['Children\'s data breach notification', 'Privacy Act regulatory defence', 'Business interruption (enrollment system, subsidy claims)', 'Social engineering fraud response', 'System recovery and restoration'],
+    avgPremium: '$40–$90/month',
+    keyFact: 'Under the Privacy Act 2020, data about children is treated with heightened sensitivity — unauthorised disclosure can cause serious harm, triggering mandatory OPC notification.',
+    metaTitle: 'Cyber Insurance for Childcare Centres & ECE Providers NZ',
+    metaDescription: 'Cyber insurance for NZ childcare centres and early childhood education providers. Protect children\'s data, parent records and centre systems.',
+    longFormContent: `
+<h2>Why Childcare Centres and ECE Providers Need Cyber Insurance</h2>
+<p>Early childhood education centres and childcare providers may not immediately think of themselves as cyber insurance candidates — but they hold some of the most sensitive personal data in New Zealand. Information about enrolled children, including their names, photos, medical conditions, developmental assessments, family circumstances and authorised pick-up contacts, is protected under the Privacy Act 2020 and carries heightened obligations because it relates to minors.</p>
+
+<h2>Children's Data: Heightened Privacy Obligations</h2>
+<p>The Privacy Act 2020 imposes mandatory breach notification obligations on any organisation that suffers a breach causing serious harm. For childcare providers, the threshold for serious harm is lower than for many other sectors — because children and their families are considered a particularly vulnerable group. A breach of enrolled children's records, even if not immediately exploited, is likely to meet the notification threshold. This triggers obligations to notify affected families and report to the Office of the Privacy Commissioner, with associated legal, communications and remediation costs.</p>
+
+<h2>Financial Processing Exposure</h2>
+<p>ECE centres process significant financial transactions — Ministry of Education subsidy claims, parent fee payments, payroll for teachers and support staff, and in many cases, WINZ-related childcare subsidy administration. These financial flows are attractive to cybercriminals who use business email compromise to intercept payments or redirect subsidy receipts. A well-crafted phishing email impersonating a bank, the Ministry of Education, or a supplier can cause significant losses.</p>
+
+<h2>ECE Management Software Risks</h2>
+<p>Most NZ childcare centres use dedicated ECE management software platforms for enrolment records, attendance tracking, meal planning, developmental journaling and communication with families. These platforms hold comprehensive child and family data. If the platform itself suffers a breach — or if a centre's access credentials are compromised — the impact can be significant. Cyber insurance covers losses arising from both direct attacks on the centre's systems and losses flowing from third-party software provider incidents.</p>
+
+<h2>Reputational Risk in a Trust-Based Sector</h2>
+<p>Parents trust childcare centres with the most precious thing in their lives. A data breach — particularly one involving children's photos or personal information — can cause irreparable reputational damage even if no actual harm results. Cyber insurance includes access to crisis communications support and PR services to help manage the reputational fallout from a cyber incident and communicate effectively with affected families.</p>
+
+<h2>What Cyber Insurance for Childcare Covers</h2>
+<p>A cyber policy for ECE providers should include: children's data breach notification and remediation, Privacy Act regulatory investigation defence, business interruption for enrollment and subsidy processing disruptions, social engineering fraud response, system recovery, and crisis communications. Premium for most childcare centres is modest — typically $40–$90 per month — reflecting the relatively small revenue base but meaningful data exposure.</p>
+    `,
+    faqs: [
+      { q: 'Is children\'s data treated differently under the Privacy Act 2020?', a: 'Yes — data about children is considered particularly sensitive, and the Privacy Commissioner has indicated that breaches involving children\'s data are likely to meet the serious harm threshold for mandatory notification. This means ECE centres face a higher practical notification obligation than many adult-focused businesses.' },
+      { q: 'Are we covered if our ECE management software is hacked?', a: 'Modern cyber insurance policies include coverage for losses arising from third-party software provider incidents — sometimes called technology service provider failure or contingent business interruption. If your enrolled children\'s data is exposed through a breach of your ECE platform provider, your policy should respond.' },
+      { q: 'What if a staff member clicks a phishing email and our parent records are exposed?', a: 'This is one of the most common cyber incident scenarios. Your policy covers the forensic investigation to determine what was accessed, legal advice on notification obligations, the cost of notifying affected families, OPC reporting, and any regulatory investigation that follows. Crisis communications support is also typically included.' },
+      { q: 'How much does cyber insurance cost for a small childcare centre?', a: 'Most small to medium ECE centres pay $40–$90 per month for a comprehensive cyber insurance policy. Premium depends on the number of enrolled children, annual revenue, and the security controls in place. Centres using multi-factor authentication and encrypted backups typically qualify for lower premiums.' },
+    ],
+  },
+
+  {
+    slug: 'recruitment-hr',
+    name: 'Recruitment & HR Firms',
+    shortName: 'Recruitment',
+    icon: '👥',
+    image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80',
+    description: 'Recruitment agencies and HR consultancies handle some of the most sensitive personal data in business — CVs, background checks, payroll, and employment history.',
+    whyNeedCyber: `Recruitment agencies and HR consultancies are custodians of extraordinarily sensitive personal information. CVs contain full personal details, employment history, referee contacts, and often salary information. Background check results include criminal history, credit reports, and reference assessments. Payroll data for HR-as-a-service providers includes bank account numbers, tax details, and salary structures. A breach of this data can cause direct financial harm to candidates and employees — and significant liability for the agency.`,
+    topRisks: ['Candidate database breach (CVs, personal details)', 'Business email compromise impersonating clients or candidates', 'Payroll system fraud and redirection', 'Background check data exposure', 'CRM ransomware encrypting candidate and client records'],
+    coverageNeeds: ['Candidate data breach notification', 'Privacy Act regulatory defence', 'BEC/social engineering fraud response', 'Payroll fraud recovery', 'System recovery and CRM restoration'],
+    avgPremium: '$70–$180/month',
+    keyFact: 'Recruitment agencies and HR firms rank among the top 10 sectors for data breach notifications in NZ due to the volume and sensitivity of personal data they process.',
+    metaTitle: 'Cyber Insurance for Recruitment Agencies & HR Firms NZ',
+    metaDescription: 'Cyber insurance for NZ recruitment agencies and HR consultancies. Protect candidate data, payroll systems and client records from cyber attacks.',
+    longFormContent: `
+<h2>Why Recruitment Agencies and HR Firms Face Significant Cyber Risk</h2>
+<p>Recruitment agencies and HR consultancies sit at the intersection of two high-value data categories: highly sensitive personal information about candidates, and confidential business information about client companies. This dual exposure — combined with the volume of electronic communications, CV attachments, and financial transactions involved in day-to-day operations — creates meaningful cyber risk that many smaller firms underestimate.</p>
+
+<h2>Candidate Database: A Valuable Target</h2>
+<p>A mid-sized NZ recruitment agency may hold tens of thousands of candidate records — full names, contact details, employment histories, referee contacts, salary expectations, and in many cases, background check results including criminal history checks, credit reports, and identity verification documents. This data is extremely valuable on the dark web for identity theft purposes. A breach of a candidate database can cause direct financial harm to the affected individuals and triggers mandatory Privacy Act notification obligations.</p>
+
+<h2>Business Email Compromise in Recruitment</h2>
+<p>Recruitment agencies are particularly vulnerable to BEC fraud because their email environment involves constant communication with multiple parties — clients, candidates, referees, and background check providers. Fraudsters impersonate clients to redirect invoice payments, impersonate candidates to submit fraudulent bank account details for salary payments, or compromise agency email accounts to intercept offer letters and redirect acceptance communications. BEC losses in the recruitment sector can be substantial and are rarely recoverable without cyber insurance.</p>
+
+<h2>Payroll and HR-as-a-Service Exposure</h2>
+<p>HR firms providing payroll processing services hold employee bank account numbers, IRD numbers, KiwiSaver membership details, and salary structures for multiple client companies. A breach of payroll systems — or a social engineering attack that tricks a payroll administrator into changing bank account details — can result in significant financial losses for both the firm and its clients. Professional indemnity claims from affected clients can follow quickly.</p>
+
+<h2>Privacy Act 2020 Obligations</h2>
+<p>As a recruitment or HR firm, you are classified as an information broker under the Privacy Act — collecting, storing and sharing personal information on behalf of other parties. This brings heightened compliance obligations. A privacy breach affecting candidate or employee data must be assessed against the serious harm threshold, and in many cases will require both OPC notification and notification to the affected individuals. Cyber insurance covers the legal advice, notification costs, and regulatory response costs associated with a privacy breach.</p>
+
+<h2>What Cyber Insurance for Recruitment Should Include</h2>
+<p>Cyber insurance for NZ recruitment agencies and HR firms should specifically address: candidate database breach response, BEC/social engineering fraud protection, payroll fraud response and recovery, third-party claims from client companies whose employee data was affected, and Privacy Act regulatory investigation defence. Also consider whether your policy covers losses from breaches of your applicant tracking system (ATS) or HR information system (HRIS) provider.</p>
+    `,
+    faqs: [
+      { q: 'Are we liable if a client\'s employee data is breached through our HR systems?', a: 'Yes — if your firm processes employee data for clients and that data is breached through your systems, your clients may have claims against you for the costs of their own notification, regulatory response, and reputational damage. Cyber insurance responds to these third-party liability claims, covering defence and settlement costs.' },
+      { q: 'What if a fraudster impersonates one of our clients via email and we pay them?', a: 'Business email compromise targeting recruitment firms is a genuine and growing risk. If you receive what appears to be a legitimate client email directing payment to a new bank account, and the account turns out to be fraudulent, your cyber insurance should respond under social engineering fraud coverage. Confirm your policy\'s sub-limit for this coverage — it varies significantly between insurers.' },
+      { q: 'Do we need to notify candidates if their CV data is accessed by a third party?', a: 'Under the Privacy Act 2020, if candidate data is accessed without authorisation in a way that is likely to cause serious harm, you must notify both the Privacy Commissioner and the affected individuals. Given the sensitivity of CV and background check data, this threshold is likely to be met. Cyber insurance covers the legal advice on notification obligations, the notification process costs, and OPC investigation response.' },
+      { q: 'How is cyber insurance premium calculated for recruitment firms?', a: 'Premium is based on the volume of personal data processed (number of active candidate records), annual revenue, payroll processing volumes if applicable, and the security controls in place. Multi-factor authentication on email and CRM systems, encrypted candidate databases, and documented data retention and deletion policies all reduce premium.' },
+    ],
+  },
+
+  {
+    slug: 'architecture-design',
+    name: 'Architecture & Design Firms',
+    shortName: 'Architecture',
+    icon: '📐',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+    description: 'Architecture and design firms hold valuable IP in the form of CAD files, client project data, and commercially sensitive building designs.',
+    whyNeedCyber: `Architecture and design practices face a distinctive cyber risk profile. Their primary business assets — CAD files, BIM models, client project specifications, and design documentation — are digital and highly valuable. Ransomware that encrypts a firm's project files can halt multiple active projects simultaneously, triggering professional liability exposure for delayed deliverables. Combined with the financial transactions involved in project billing and the sensitive client information held in practice management systems, architecture firms have meaningful cyber exposure that standard professional indemnity policies do not cover.`,
+    topRisks: ['Ransomware encrypting CAD files and project documentation', 'IP theft (design files, client specifications)', 'Business email compromise targeting project billing', 'Client data breach (building designs, personal details)', 'Cloud storage account compromise'],
+    coverageNeeds: ['Project file ransomware response and recovery', 'Business interruption for active project delays', 'Professional liability arising from cyber-caused delays', 'Client data breach notification', 'IP theft response and legal costs'],
+    avgPremium: '$80–$200/month',
+    keyFact: 'Architecture and engineering firms have been specifically targeted by ransomware groups seeking to extort payment by threatening to publish confidential client building designs.',
+    metaTitle: 'Cyber Insurance for Architecture & Design Firms NZ',
+    metaDescription: 'Cyber insurance for NZ architecture and design practices. Protect CAD files, project data and client information from ransomware and cyber attacks.',
+    longFormContent: `
+<h2>Why Architecture and Design Firms Need Cyber Insurance</h2>
+<p>Architecture and design practices increasingly recognise that their most valuable business assets are digital: detailed CAD files, Building Information Modelling (BIM) data, client project specifications, regulatory consent documentation, and years of accumulated design precedents and templates. These assets represent the firm's intellectual property and, in the short term, the active work in progress for all current clients. A ransomware attack that encrypts these files can simultaneously halt every active project in the office.</p>
+
+<h2>Ransomware and CAD Files: The Core Risk</h2>
+<p>Ransomware criminals have shown increasing sophistication in identifying and targeting professional services firms where digital file loss causes maximum disruption. Architecture practices are attractive targets because their CAD and BIM files are large, complex, and difficult to recreate — meaning the pressure to pay a ransom or face weeks of reconstruction work is significant. Even with good backup practices, recovering and re-synchronising current project files after a ransomware attack typically takes days to weeks, during which client project timelines cannot be met.</p>
+<p>International ransomware groups have specifically threatened to publish confidential building designs, including security-sensitive building layouts for commercial and government clients, as a secondary extortion mechanism. This is particularly concerning for firms working on schools, healthcare facilities, government buildings, or high-net-worth residential projects where publication of building layouts could create security risks.</p>
+
+<h2>Business Interruption and Professional Liability Interaction</h2>
+<p>When a cyber attack delays project delivery, the professional liability implications are significant. Architects have contractual obligations to deliver designs, consent applications, and contract administration services to programme. A cyber-caused delay that pushes a project past a consent expiry, delays a construction tender, or causes a contractor to incur preliminary costs waiting for documentation creates direct professional liability exposure. Cyber insurance should include business interruption coverage and ideally should interface with professional indemnity policy coverage for cyber-caused delays.</p>
+
+<h2>Client Data and Building Security</h2>
+<p>Architecture firms hold detailed information about their clients' properties, security arrangements, building layouts, and in some cases personal and family information for residential clients. A breach that exposes detailed floor plans, access control layouts, or security system specifications for high-value properties can have safety implications for the clients concerned. Privacy Act obligations apply to the personal information components of this data.</p>
+
+<h2>BEC in Project Billing</h2>
+<p>Architecture firms issue significant invoices at project milestones — and receive large payments from developers, government agencies, and building owners. BEC fraud impersonating the firm to redirect payment to a fraudulent account, or impersonating a client to authorise changes to payment details, is a growing risk. Social engineering fraud coverage within a cyber policy is essential for any firm issuing invoices above $20,000.</p>
+
+<h2>Cloud Storage and Collaboration Platform Security</h2>
+<p>Modern architecture practices rely heavily on cloud storage (Autodesk Construction Cloud, Revit collaboration platforms, SharePoint, Google Drive) to share project files with clients, consultants, and contractors. Misconfigured sharing permissions — exposing project files to the public internet — or compromised collaboration platform credentials can result in IP theft or client data exposure without any active attack. Cyber insurance can cover investigation and response costs even for these accidental exposure scenarios.</p>
+    `,
+    faqs: [
+      { q: 'Does cyber insurance cover CAD files lost to ransomware?', a: 'Yes — ransomware response is a core coverage component. This includes the incident response team, forensic investigation, ransom negotiation and (where legal and appropriate) payment, and the cost of file recovery and system restoration. Business interruption coverage also compensates for lost revenue while systems are down and projects are delayed.' },
+      { q: 'Are we covered if a client sues us because a cyber attack delayed our project delivery?', a: 'Cyber insurance provides business interruption coverage for the financial impact of the delay on your firm. For claims from clients arising from project delays, your professional indemnity (PI) policy is the primary response — but some cyber policies include professional liability extension for cyber-caused delays. Discuss this interface with your broker.' },
+      { q: 'What if confidential client building designs are published online?', a: 'If ransomware attackers threaten to publish client building designs as a secondary extortion mechanism, cyber insurance covers the crisis management response, legal advice on obligations to notify clients, and reputational management support. The extortion payment itself (if made with insurer approval) may also be covered.' },
+      { q: 'We use cloud storage for project files. Are we still covered?', a: 'Yes — cyber insurance covers incidents involving cloud-based systems as well as on-premises infrastructure. Whether the breach occurs through your local network, your cloud storage platform, or a collaboration tool like Autodesk or SharePoint, the policy responds to the investigation, response, and recovery costs.' },
+    ],
+  },
+
+  {
+    slug: 'dental-practices',
+    name: 'Dental Practices',
+    shortName: 'Dental',
+    icon: '🦷',
+    image: 'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1200&q=80',
+    description: 'Dental practices hold detailed health records, payment card data and personal information — making them attractive targets under the Health Information Privacy Code.',
+    whyNeedCyber: `Dental practices hold some of the most sensitive data in the health sector: complete dental health histories, radiographs, treatment records, prescription information, patient photos, and detailed personal and financial information including payment card and health insurance details. This data is protected under both the Privacy Act 2020 and the Health Information Privacy Code (HIPC) — which imposes additional obligations for health information specifically. A breach of patient health records triggers significant regulatory obligations and reputational risk in a sector where patient trust is fundamental.`,
+    topRisks: ['Patient health record breach (dental history, radiographs, treatment records)', 'Practice management software ransomware', 'Payment card data theft', 'Health insurance fraud via compromised accounts', 'Phishing targeting reception and practice managers'],
+    coverageNeeds: ['Patient data breach notification', 'Health Information Privacy Code regulatory defence', 'Practice management software recovery', 'Business interruption for appointment system outage', 'Payment card data breach response'],
+    avgPremium: '$60–$150/month',
+    keyFact: 'The Health Information Privacy Code (HIPC) applies additional obligations to dental practices beyond the standard Privacy Act — breaches of patient health information face stricter regulatory scrutiny.',
+    metaTitle: 'Cyber Insurance for Dental Practices NZ',
+    metaDescription: 'Cyber insurance for NZ dental practices. Protect patient health records, practice management systems and payment data from cyber threats.',
+    longFormContent: `
+<h2>Why Dental Practices Need Cyber Insurance</h2>
+<p>Dental practices may be smaller businesses, but they hold data that is extremely sensitive under New Zealand law. Patient dental records — including health histories, radiographs, treatment records, prescription documentation, and patient photos — are classified as health information and subject to both the Privacy Act 2020 and the Health Information Privacy Code (HIPC). The Health Information Privacy Code imposes obligations that go beyond the standard Privacy Act framework, including specific rules about who can access patient information and how it must be protected.</p>
+
+<h2>Health Information: A High-Risk Data Category</h2>
+<p>Under the Privacy Act 2020, health information is explicitly recognised as a sensitive data category. A breach of patient dental records is far more likely to meet the serious harm threshold for mandatory notification than a breach of general business contact information. This means dental practices — unlike many small businesses — face a high practical probability of mandatory notification obligations if patient records are compromised. The costs of notification, OPC investigation response, and patient communication can be significant for a practice without dedicated compliance resources.</p>
+
+<h2>Practice Management Software: The Critical Vulnerability</h2>
+<p>Most NZ dental practices rely on a small number of specialised practice management software platforms for patient records, appointment booking, treatment charting, and billing. These platforms hold comprehensive patient data and are connected to both clinical records and payment systems. Ransomware that targets dental practice management systems can simultaneously lock patient records (preventing treatment) and billing systems (preventing revenue collection). Recovery from such an attack typically takes one to two weeks — during which appointments may need to be cancelled and manual backup records used.</p>
+
+<h2>Payment Card Data and Health Insurance</h2>
+<p>Dental practices process significant payment card transactions and interact with Southern Cross and other health insurance funds for claims processing. Compromise of payment terminals or practice management system billing modules can expose patient payment card data. Health insurance credential theft — where criminals use compromised patient information to make fraudulent health insurance claims — is also a growing concern in the health sector.</p>
+
+<h2>Ransomware and Patient Care Impact</h2>
+<p>When ransomware encrypts a dental practice's systems, the impact extends beyond data and financial loss to direct patient care impact. Without access to patient health records, treating dentists cannot safely proceed with complex treatments where knowledge of allergies, medications, and prior treatment history is essential. This creates both clinical risk management obligations and potential professional liability exposure if treatment complications arise in the absence of available records.</p>
+
+<h2>Building Patient Trust After a Breach</h2>
+<p>Patient trust is the foundation of any healthcare practice. A cyber incident that exposes patient health information — or forces a practice to contact patients to notify them of a breach — can cause lasting reputational damage. Cyber insurance includes crisis communications support to help manage patient communication professionally and minimise the reputational impact of an incident.</p>
+    `,
+    faqs: [
+      { q: 'Does the Health Information Privacy Code impose additional obligations on dental practices after a breach?', a: 'Yes — the Health Information Privacy Code applies specific rules about health information handling and protection. A breach of patient dental records is subject to both the standard Privacy Act 2020 breach notification framework and HIPC-specific obligations. In practice, dental practices are likely to face mandatory notification obligations to the Privacy Commissioner for significant patient record breaches.' },
+      { q: 'What if ransomware locks our patient records during a busy appointment day?', a: 'Cyber insurance responds immediately — your insurer provides 24/7 access to a cyber incident response team who assess the attack, work to restore systems, and advise on patient communication. Business interruption coverage compensates for appointment cancellations and lost revenue during the recovery period.' },
+      { q: 'Are we covered if a member of staff accidentally emails patient records to the wrong person?', a: 'Many cyber policies include coverage for accidental disclosure as well as deliberate attacks. An email sent to the wrong recipient containing patient health records is a privacy breach that may trigger notification obligations — cyber insurance covers the legal advice, notification costs, and OPC response.' },
+      { q: 'Does cyber insurance cover the cost of patient notification letters and communications?', a: 'Yes — breach notification costs including postage, printing, patient communication materials, and credit monitoring services where offered are covered under standard cyber insurance policies. For dental practices with hundreds or thousands of patient records, these costs can be substantial.' },
+    ],
+  },
+
+  {
+    slug: 'fitness-wellness',
+    name: 'Fitness & Wellness Businesses',
+    shortName: 'Fitness',
+    icon: '💪',
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80',
+    description: 'Gyms, yoga studios and personal training businesses hold member payment data, health assessments and personal contact details — increasingly targeted by cybercriminals.',
+    whyNeedCyber: `Fitness and wellness businesses — gyms, yoga studios, personal training studios, crossfit boxes, physiotherapy practices, and wellness centres — hold a growing volume of sensitive member data. Beyond basic contact details, they typically store health assessment forms, injury history, membership payment information, and in the case of app-connected businesses, activity and biometric data. Members share personal health and body information with their fitness providers — data that is sensitive under the Privacy Act and that members would be seriously concerned to see disclosed.`,
+    topRisks: ['Member payment data theft (credit cards, direct debit)', 'Membership management software breach', 'Health assessment and body composition data exposure', 'Phishing targeting studio owners and managers', 'Point-of-sale system compromise'],
+    coverageNeeds: ['Member data breach notification', 'Payment card data response (PCI implications)', 'Business interruption for booking system outages', 'Social engineering fraud response', 'Privacy Act regulatory defence'],
+    avgPremium: '$40–$100/month',
+    keyFact: 'Fitness businesses are increasingly targeted by cybercriminals because they combine payment card data, recurring direct debits, and detailed personal health information — all in systems that typically lack enterprise-grade security.',
+    metaTitle: 'Cyber Insurance for Gyms & Fitness Businesses NZ',
+    metaDescription: 'Cyber insurance for NZ gyms, yoga studios and fitness businesses. Protect member data, payment systems and health records from cyber attacks.',
+    longFormContent: `
+<h2>Why Fitness and Wellness Businesses Need Cyber Insurance</h2>
+<p>The fitness and wellness sector has seen significant digital transformation over the past decade. Gyms now use sophisticated membership management platforms, app-connected access control, online booking systems, nutrition and training apps, and integrated payment processing — all of which hold member data. Yoga studios collect health intake forms. Personal training businesses maintain detailed client health assessments and progress records. Physiotherapy clinics hold clinical health records subject to the Health Information Privacy Code.</p>
+
+<h2>Member Payment Data: Recurring Direct Debit Exposure</h2>
+<p>Most NZ fitness businesses collect recurring payments via direct debit or automatic credit card charging. This means member banking details or card numbers are held either directly in the membership management system or linked through a payment processor. A breach of these payment details can cause direct financial harm to members through fraudulent charges. Where card data is held in scope for PCI DSS, a breach also triggers significant compliance obligations and potential penalties from card networks.</p>
+
+<h2>Health Assessment and Body Composition Data</h2>
+<p>Personal trainers and gym fitness assessors routinely collect health information from clients: injury history, medical conditions, medications, body composition measurements, and training goals. This information is personal and sensitive — members would be seriously concerned to find it disclosed without their consent. Under the Privacy Act 2020, this health-adjacent information is handled with heightened obligations. A breach that exposes member health assessments triggers notification obligations and reputational risk in a sector built on personal trust.</p>
+
+<h2>Membership Management Platform Risks</h2>
+<p>The NZ fitness sector relies on a small number of specialised membership management platforms. These platforms hold member contact details, membership tier information, payment history, access control credentials, and often health assessment records and class booking history. A ransomware attack or credential compromise affecting these platforms can simultaneously lock access control (preventing member entry), halt booking systems, and freeze payment processing — creating immediate business disruption.</p>
+
+<h2>Social Media and Digital Marketing Exposure</h2>
+<p>Fitness businesses invest heavily in social media and digital marketing — and the accounts associated with this activity are also cyber risk vectors. Compromise of Instagram or Facebook business accounts used for member engagement can result in fraudulent posts damaging to brand reputation, loss of follower databases, and in some cases access to linked payment methods used for advertising. While not always covered under cyber insurance, some policies do include social media compromise response.</p>
+
+<h2>What Cyber Insurance for Fitness Businesses Should Cover</h2>
+<p>A cyber policy for NZ fitness businesses should include: member data breach notification, payment card data breach response, membership management platform recovery, business interruption for booking and access control system outages, social engineering fraud response (particularly for studio owners receiving fake invoice emails), and Privacy Act regulatory defence. Premium for most small to medium fitness businesses is modest — reflecting the relatively contained data environment but real exposure to the key risks above.</p>
+    `,
+    faqs: [
+      { q: 'Are gym members\' credit card details covered under cyber insurance?', a: 'Yes — payment card data breaches are one of the core coverages in cyber insurance. This includes the forensic investigation to determine how cards were compromised, PCI DSS compliance response costs, notification to affected members, and third-party liability if card issuers make claims for fraud losses resulting from the breach.' },
+      { q: 'What if our booking system goes offline due to a cyber attack?', a: 'Business interruption coverage within a cyber policy compensates for lost revenue when your booking, access control, or membership management systems are unavailable due to a cyber incident. This includes not just the immediate outage but also the ramp-up period as normal operations are restored.' },
+      { q: 'Are health intake forms and body composition assessments covered?', a: 'Yes — these records are personal information subject to Privacy Act 2020 obligations. If they are breached, cyber insurance covers the legal advice on notification obligations, the cost of notifying affected members, and any OPC investigation response.' },
+      { q: 'We\'re a small yoga studio. Do we really need cyber insurance?', a: 'Even small fitness businesses collect enough sensitive member information to face real Privacy Act notification obligations in the event of a breach. Premium for a small studio is typically $40–$60 per month — less than many studios spend on a single class of consumables. The cost of managing a member data breach notification without insurance is typically $5,000–$30,000.' },
+    ],
+  },
 ];

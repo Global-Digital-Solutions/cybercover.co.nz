@@ -556,4 +556,145 @@ export const blogPosts: BlogPost[] = [
 <p>For most NZ professional service firms, a cyber insurance policy should specifically address: client data breach and notification, third-party liability for client system access incidents, social engineering fraud (BEC and invoice fraud), business interruption during system recovery, and the interaction with your existing PI coverage. Our licensed brokers work specifically with professional service firms and understand the nuances of this sector's risk profile and contractual obligations.</p>
     `,
   },
+
+  {
+    slug: 'nz-cyber-threat-report-2025-what-businesses-need-to-know',
+    title: 'What the 2025 NCSC Threat Report Means for Your Business',
+    excerpt: 'The NCSC\'s 2025 annual threat report confirms that cyber attacks on NZ businesses rose sharply last year. Here\'s what the data shows and what your business should do about it.',
+    author: 'CyberCover Team',
+    date: '2026-07-01',
+    category: 'Threat Intelligence',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80',
+    readTime: '7 min read',
+    content: `
+<h2>The NCSC's 2025 Annual Threat Report: Key Findings</h2>
+<p>Each year, the National Cyber Security Centre (NCSC) — the government's cyber defence agency operating under the GCSB — publishes a detailed threat landscape report based on incidents reported to its systems and intelligence gathered from its monitoring of nationally significant networks. The 2025 report, covering incidents from the 2024–25 financial year, presents a detailed picture of the threat environment facing businesses and government organisations across the country. The picture it paints is sobering.</p>
+
+<h2>Ransomware Remains the Dominant Threat</h2>
+<p>For the fourth consecutive year, ransomware was identified as the most disruptive threat to businesses with operations here. The NCSC documented a significant increase in incidents where attackers achieved meaningful dwell time inside victim networks before deploying ransomware — often weeks or months — allowing them to exfiltrate sensitive data and map backup systems before encrypting files. This dual-extortion approach, threatening both operational disruption and data publication, substantially increases the pressure on organisations to pay ransoms.</p>
+<p>The report notes a concerning shift toward targeting mid-market businesses — those with revenue between $5 million and $50 million — which attackers have identified as having enough revenue to make ransom payments feasible but typically lacking the dedicated security operations of larger enterprises. If your business falls into this category, you are squarely in the crosshairs of the most active ransomware groups.</p>
+
+<h2>Business Email Compromise Losses Exceed Ransomware</h2>
+<p>While ransomware generates headlines, the NCSC report highlights that business email compromise (BEC) continues to cause greater total financial losses than ransomware when measured in dollar terms. BEC attacks — where criminals impersonate executives or suppliers to redirect payments — are harder to detect, require no technical sophistication to execute, and in many cases are not covered by traditional insurance policies. The average BEC loss documented in the 2025 report was substantially higher than in previous years, reflecting increasingly targeted and sophisticated attacks on larger transactions.</p>
+
+<h2>Supply Chain Attacks: The Growing Threat</h2>
+<p>The 2025 report identifies third-party and supply chain attacks as one of the fastest-growing threat vectors. Rather than attacking a well-defended target directly, criminal groups and state-sponsored actors are targeting the software vendors, IT service providers, and managed security providers that service multiple organisations. A single successful compromise of a widely-used software platform or IT provider can provide access to hundreds of client environments simultaneously — as demonstrated by several major incidents affecting NZ organisations in the 2024–25 period.</p>
+
+<h2>State-Sponsored Actors: An Elevated Warning</h2>
+<p>For the first time, the 2025 NCSC report included a specific warning about state-sponsored cyber actors conducting espionage operations against private sector entities beyond the traditional targets of government agencies and critical infrastructure. Professional service firms, technology companies, agricultural businesses, and sectors with involvement in strategically significant supply chains were all cited. The objective in these cases is typically intellectual property theft rather than financial gain — but the business disruption and remediation costs are equally real.</p>
+
+<h2>Sectors Most Targeted in 2025</h2>
+<p>The report identifies the top five targeted sectors as: healthcare (including aged care and allied health), professional services (legal, accounting, consulting), retail and e-commerce, local government, and financial services. Notably, the healthcare and professional services categories both saw significantly increased incident volumes compared to the prior year. The NCSC attributes this to the high value and volume of personal data held in these sectors and the relatively slow adoption of multi-factor authentication across them.</p>
+
+<h2>What This Means for Cyber Insurance</h2>
+<p>Two practical implications flow from the NCSC's 2025 findings. First, the risk of a cyber incident affecting your business is higher than it was 12 months ago — for most sectors, materially so. Second, the nature of attacks has evolved in ways that make the gaps in standard business insurance policies more dangerous: ransomware losses, BEC fraud, and supply chain incident costs are generally not covered by general liability, property, or standard professional indemnity policies.</p>
+<p>Cyber insurance that specifically addresses these risks — incident response costs, forensic investigation, business interruption, BEC fraud losses, and third-party liability — has become a core risk management tool rather than an optional extra. Given the NCSC's documented increase in mid-market targeting, businesses that have previously regarded themselves as "too small to be a target" should review that assumption carefully.</p>
+    `,
+  },
+
+  {
+    slug: 'deepfake-and-ai-fraud-nz-cyber-insurance-2026',
+    title: 'Deepfake and AI Fraud in 2026: What NZ Businesses Need to Know',
+    excerpt: 'AI-generated voice cloning, video deepfakes and large language model-powered phishing are hitting businesses hard. Here\'s how these new fraud types work and what cyber insurance covers.',
+    author: 'CyberCover Team',
+    date: '2026-06-12',
+    category: 'Emerging Threats',
+    image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80',
+    readTime: '8 min read',
+    content: `
+<h2>AI-Powered Fraud: A New Category of Cyber Threat</h2>
+<p>The past 18 months have seen a step-change in the sophistication of fraud targeting businesses. Criminals now have access to generative AI tools capable of cloning voices from seconds of audio, creating video of individuals saying things they never said, and crafting personalised phishing emails indistinguishable from genuine communication. What was previously confined to well-resourced nation-state actors is now available to criminal groups with modest budgets — and the results are landing in the inboxes and phone logs of businesses across the country.</p>
+
+<h2>Voice Cloning and the CEO Fraud Evolution</h2>
+<p>Business email compromise has been the dominant fraud type for several years. The newer variant — voice cloning fraud — takes the same basic approach but adds a layer of authenticity that makes it far harder to detect. In a typical attack, a criminal calls a finance team member impersonating the CEO or CFO, using a voice cloned from audio scraped from public sources: interviews, conference presentations, LinkedIn videos. The "CEO" instructs the finance officer to make an urgent payment to a new account, often with a plausible business explanation. The instruction sounds exactly like the real person. Without a verification protocol in place, many finance teams comply.</p>
+<p>Several documented incidents involving businesses in the Asia-Pacific region in 2025 resulted in losses exceeding $500,000 from a single call. In one widely-reported international case, a finance worker authorised transfers of approximately USD$25 million after a video call with what appeared to be multiple senior company executives — all of whom were deepfakes.</p>
+
+<h2>AI-Enhanced Phishing: The End of "Obvious" Scams</h2>
+<p>Traditional phishing emails were detectable by poor grammar, generic salutations, and implausible scenarios. AI-generated phishing has eliminated most of these tells. Modern phishing attacks use large language models to craft emails that perfectly mimic the writing style of a known contact, reference specific recent events or conversations, and present entirely plausible scenarios. The email appears to come from a trusted colleague and contains information that only that person could plausibly know — because the attacker has scraped that information from email chains, LinkedIn, and company websites.</p>
+<p>These attacks are substantially harder for staff to detect through intuition alone. They require process-based defences — verification protocols, approval workflows, and out-of-band confirmation — rather than relying on staff to spot an "obvious" scam.</p>
+
+<h2>Synthetic Identity Fraud and Business Onboarding</h2>
+<p>AI-generated synthetic identities — fictitious individuals with AI-created photo IDs, voice profiles, and document sets — are increasingly being used to defraud businesses during customer or supplier onboarding. Financial service firms, professional services companies, and businesses that extend credit face the greatest exposure here. A synthetic identity that passes standard KYC checks can be used to establish credit relationships, receive goods or services, and disappear — leaving the business with unrecoverable losses.</p>
+
+<h2>Deepfake Video in Corporate Governance</h2>
+<p>Beyond fraud targeting finance teams, deepfake technology is being used in corporate governance attacks — creating false video evidence of board decisions, creating deepfake content to damage executive reputations, or manipulating video communications to extract sensitive information. While these attack types are currently less common than voice cloning, the NCSC has flagged them as a growing concern for larger organisations.</p>
+
+<h2>What Cyber Insurance Covers for AI Fraud</h2>
+<p>Coverage for AI-powered fraud depends significantly on how your cyber insurance policy is structured. Social engineering fraud coverage — which responds to losses from BEC and similar deception-based attacks — is the most relevant component. This coverage typically applies when an employee is deceived into authorising a fraudulent payment or action through electronic communication, including AI-generated voice or video.</p>
+<p>However, social engineering fraud coverage often has sub-limits substantially lower than the overall policy limit, and some policies require specific conditions to be met (such as verification procedures being in place). It is worth reviewing the social engineering section of your current policy — or if you are obtaining cover for the first time, specifically asking about the sub-limit and conditions for this coverage.</p>
+
+<h2>Reducing Your Exposure: Process Controls That Work</h2>
+<p>Cyber insurance provides the financial backstop, but the most effective defence against AI fraud is procedural. A mandatory out-of-band verification call using a pre-verified number for any payment instruction above a defined threshold is the single most effective control. "Above a defined threshold" should be set at whatever level a loss would cause material impact — for many businesses, this is $5,000–$10,000. If the instruction is genuine, the verification call takes 60 seconds. If it is fraudulent, it stops the loss entirely.</p>
+    `,
+  },
+
+  {
+    slug: 'supply-chain-cyber-attack-insurance-nz',
+    title: 'Supply Chain Cyber Attacks: Why Your Vendor\'s Breach Is Your Problem',
+    excerpt: 'When your IT provider, software vendor or managed service provider is hacked, your business can be exposed too — even if your own systems were never touched. Here\'s how supply chain cyber risk works and how insurance responds.',
+    author: 'CyberCover Team',
+    date: '2026-05-20',
+    category: 'Risk Management',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
+    readTime: '7 min read',
+    content: `
+<h2>Why Your Vendor's Security Is Your Problem</h2>
+<p>When people think about cyber attacks, they typically imagine an attacker targeting their own systems directly. The reality of how most serious incidents unfold is often quite different. Supply chain attacks — where criminals compromise a supplier, software vendor, or service provider and use that access to reach the vendor's clients — have become one of the most prevalent and consequential cyber attack vectors affecting businesses.</p>
+<p>The logic for attackers is straightforward: a single successful compromise of a widely-used IT service provider can provide simultaneous access to hundreds or thousands of client environments. The return on investment is dramatically higher than attacking individual organisations, and the third-party access that clients have granted their providers often bypasses the security controls the client has implemented on its own systems.</p>
+
+<h2>How Supply Chain Attacks Work</h2>
+<p>Supply chain attacks typically unfold in one of three ways. In the software supply chain variant, attackers compromise the software development pipeline of a widely-deployed application, embedding malicious code into an update that is then pushed to all installations. Because the update appears to come from the legitimate vendor and is delivered through normal update channels, it bypasses many security controls. The 2020 SolarWinds attack — which affected thousands of organisations globally — is the canonical example of this type.</p>
+<p>In the IT service provider variant, attackers compromise a managed service provider or IT support firm that has administrative access to client networks. Using stolen administrator credentials, they can access client environments, deploy ransomware, or exfiltrate data while appearing to operate through legitimate channels. The attacker effectively inherits the access rights the MSP had been granted — which in many cases is extensive.</p>
+<p>In the software-as-a-service variant, a cloud platform or SaaS application that holds client data is compromised, exposing that data without the client's own systems ever being touched. The client is a victim of the breach but had no control over the environment that was attacked.</p>
+
+<h2>Real-World Impact on NZ Businesses</h2>
+<p>Multiple supply chain incidents affecting businesses have been documented in recent years. The MOVEit file transfer software breach in 2023, the Okta customer support system compromise, and several large managed IT service provider incidents collectively affected organisations across multiple industries and geographies. In each case, affected organisations suffered real-world consequences — data exposure, regulatory obligations, and in some cases operational disruption — despite having done nothing wrong themselves.</p>
+
+<h2>What Gets Exposed in Supply Chain Attacks</h2>
+<p>The exposure from a supply chain attack depends entirely on what the compromised vendor accessed on your behalf. IT service providers with remote monitoring and management access can expose administrative credentials, internal systems, and all network-attached data. HR and payroll software providers can expose employee personal information, bank account details, and tax records. Legal practice management software can expose client files, correspondence, and privileged communications. Cloud storage platforms can expose whatever files were stored in them.</p>
+
+<h2>Does Cyber Insurance Cover Supply Chain Incidents?</h2>
+<p>Coverage for supply chain incidents has become one of the most important — and variable — aspects of cyber insurance policy design. Modern cyber policies typically include technology service provider failure coverage (sometimes called contingent business interruption), which responds to losses caused by a failure or breach of a third-party technology provider. However, the scope and sub-limits of this coverage vary significantly between policies.</p>
+<p>When reviewing a cyber insurance policy, pay specific attention to whether technology service provider failure coverage requires the named provider to have suffered a covered cyber event, or whether it also responds to accidental outages. Also examine the sub-limit — some policies apply a significantly lower limit to TPF claims than to direct attacks. If your business is highly dependent on one or two critical SaaS platforms or an MSP, this is worth discussing specifically with your broker.</p>
+
+<h2>Managing Supply Chain Risk Before an Incident</h2>
+<p>Insurance is the financial backstop — the upstream risk management is vendor due diligence. Before granting any third-party provider access to your systems or data, it is worth asking whether they hold relevant security certifications (ISO 27001 is the most widely recognised), whether they carry their own cyber insurance (ask for a certificate of currency), what their incident notification obligations are if they suffer a breach affecting your data, and what contractual remedies you have if they cause a loss through inadequate security. These questions are increasingly standard in enterprise procurement — and worth asking even if you are not a large enterprise.</p>
+    `,
+  },
+
+  {
+    slug: 'cloud-security-breach-insurance-nz',
+    title: 'Cloud Security Breaches: What Microsoft 365 and AWS Misconfigurations Are Costing Businesses',
+    excerpt: 'Most cloud breaches aren\'t caused by sophisticated hackers. They\'re caused by misconfigured settings that leave your data exposed. Here\'s what you need to know — and how cyber insurance responds.',
+    author: 'CyberCover Team',
+    date: '2026-04-28',
+    category: 'Cloud Security',
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80',
+    readTime: '6 min read',
+    content: `
+<h2>The Cloud Misconfiguration Problem</h2>
+<p>When most people imagine a cyber breach, they picture a sophisticated attacker using advanced techniques to force their way through defences. The reality of most cloud data breaches is less dramatic but no less damaging: a misconfiguration that leaves data publicly accessible, or credentials that allow unauthorised access because multi-factor authentication was never enabled. According to multiple industry studies, cloud misconfiguration is consistently identified as a leading cause of data exposure — affecting organisations of every size.</p>
+<p>Cloud platforms are extraordinarily capable, but that capability comes with complexity. Microsoft 365 alone has hundreds of configurable security settings across Exchange, SharePoint, Teams, OneDrive, Azure AD, and Intune. AWS manages security across dozens of services, each with its own access control model. A single misconfigured S3 bucket set to public access, a SharePoint site with permissions left open for a contractor who is no longer engaged, or an Azure AD tenant without conditional access policies can expose sensitive data to anyone who knows where to look.</p>
+
+<h2>Microsoft 365: Common Exposure Points</h2>
+<p>Microsoft 365 is the dominant cloud productivity platform for businesses, and it is a frequent source of security incidents — not because Microsoft's platform is insecure, but because the configuration responsibility lies with the customer. The most common exposure patterns include: email forwarding rules that automatically forward all emails to an external address (often created by a compromised account and then forgotten), SharePoint sites or OneDrive folders shared with "Anyone with the link" rather than specific users, Teams channels connected to external guests without proper governance, and email security settings that allow unauthenticated external senders to impersonate internal domains.</p>
+<p>Microsoft 365 account compromise — where an attacker obtains valid credentials through phishing or password spraying — is one of the most common precursors to BEC fraud and internal data theft. Without multi-factor authentication, a compromised password is sufficient to give an attacker full access to email, files, contacts, and calendars.</p>
+
+<h2>AWS and Cloud Infrastructure Misconfigurations</h2>
+<p>For businesses using AWS or other cloud infrastructure services, the most common misconfiguration-related exposures involve storage buckets (S3 in AWS) set to public access, databases without network-level access controls, API endpoints without authentication, and overly permissive IAM roles that grant broader access than required. Many of these misconfigurations occur during development — where convenience is prioritised over security — and then persist into production environments.</p>
+<p>The consequences can be significant: an exposed S3 bucket containing customer records, a publicly accessible database with user credentials, or an API endpoint that allows unauthenticated data extraction. In several documented cases, data exposed in this way was discovered and published by third parties before the business became aware of the exposure — triggering immediate Privacy Act obligations alongside the technical remediation challenge.</p>
+
+<h2>Accidental Exposure vs Active Attack</h2>
+<p>One of the important distinctions in cloud security incidents is between active attacks (where a criminal deliberately targets your systems) and accidental exposure (where misconfiguration makes data accessible without any active exploitation). From a Privacy Act perspective, both situations create the same notification obligations if personal information was accessible to unauthorised parties. From an insurance perspective, coverage depends on how the policy is drafted.</p>
+<p>Most modern cyber insurance policies cover both active attacks and accidental data exposure events — including misconfiguration incidents. However, it is worth confirming this with your broker when taking out or renewing a policy, as older or more basic policies may require evidence of an active attack to trigger coverage.</p>
+
+<h2>What Cyber Insurance Covers for Cloud Breaches</h2>
+<p>A cyber insurance policy should respond to cloud breach incidents with: forensic investigation to determine what data was accessible and for how long, legal advice on Privacy Act notification obligations, the cost of notifying affected individuals, regulatory investigation response if the Privacy Commissioner initiates proceedings, and third-party liability if customers make claims arising from the exposure of their data. Business interruption coverage applies if the cloud service was rendered unavailable as part of the incident.</p>
+<p>The business interruption component is particularly important for businesses that are highly dependent on cloud services for day-to-day operations. An extended Microsoft 365 outage caused by an account compromise — while forensic investigators work to remediate the breach — can halt operations just as effectively as an on-premises ransomware attack.</p>
+
+<h2>Reducing Cloud Risk Through Configuration</h2>
+<p>The most cost-effective action any business can take to reduce cloud security risk is enabling multi-factor authentication on all cloud accounts — particularly Microsoft 365, Google Workspace, and any cloud infrastructure management consoles. This single control eliminates the most common account compromise pathway. Beyond MFA, a periodic review of sharing permissions on cloud storage, external guest access in collaboration platforms, and email security settings can identify and remediate misconfiguration exposures before they become incidents.</p>
+<p>Cyber insurance provides the financial protection when these controls fail or before they are put in place. For businesses in the process of improving their cloud security posture, insurers and brokers can often provide guidance on which controls have the greatest premium impact — creating a financial incentive to prioritise the right improvements.</p>
+    `,
+  },
 ];

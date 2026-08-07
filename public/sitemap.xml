@@ -1,53 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Core pages -->
-  <url><loc>https://www.cybercover.co.nz/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.cybercover.co.nz/coverage/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.cybercover.co.nz/compare/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.cybercover.co.nz/contact/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.cybercover.co.nz/about/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.cybercover.co.nz/claims/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.cybercover.co.nz/privacy/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://www.cybercover.co.nz/terms/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://www.cybercover.co.nz/disclaimer/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://www.cybercover.co.nz/thank-you/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <!-- Business types -->
-  <url><loc>https://www.cybercover.co.nz/businesses/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/small-business/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/healthcare/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/legal-firms/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/accounting-finance/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/retail-ecommerce/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/hospitality/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/construction/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/education/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/nonprofits/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/professional-services/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/manufacturing/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/technology/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/property-management/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/financial-services/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/trades/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/logistics-transport/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/media-marketing/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/aged-care/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/engineering/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.cybercover.co.nz/businesses/real-estate/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <!-- Blog / Resources -->
-  <url><loc>https://www.cybercover.co.nz/blog/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/what-does-cyber-insurance-cover-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/privacy-act-2020-nz-businesses/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/ransomware-new-zealand-threat-insurance/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/how-much-does-cyber-insurance-cost-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/small-business-cyber-insurance-nz-why-covered/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/business-email-compromise-nz-most-common-claim/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/nz-cyber-security-strategy-2026-what-businesses-need-to-know/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-for-healthcare-nz-privacy-code/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/ai-threats-cyber-insurance-nz-2026/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-claims-process-nz-what-to-expect/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/social-engineering-fraud-nz-cyber-insurance/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-nz-small-business-guide-2026/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/ransomware-recovery-nz-guide-cyber-insurance/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-professional-services-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.cybercover.co.nz/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.cybercover.co.nz/coverage/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/about/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/claims/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/disclaimer/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.cybercover.co.nz/privacy/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.cybercover.co.nz/terms/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Business type pages (26) -->
+  <url><loc>https://www.cybercover.co.nz/businesses/small-business/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/healthcare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/legal-firms/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/accounting-finance/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/retail-ecommerce/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/hospitality/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/construction/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/education/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/nonprofits/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/professional-services/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/manufacturing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/technology/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/property-management/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/financial-services/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/trades/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/logistics-transport/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/media-marketing/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/aged-care/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/engineering/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/real-estate/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/government-local-councils/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/childcare-early-learning/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/recruitment-hr/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/architecture-design/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/dental-practices/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cybercover.co.nz/businesses/fitness-wellness/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog articles (19) -->
+  <url><loc>https://www.cybercover.co.nz/blog/what-does-cyber-insurance-cover-nz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/privacy-act-2020-nz-businesses/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/ransomware-new-zealand-threat-insurance/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/how-much-does-cyber-insurance-cost-nz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/small-business-cyber-insurance-nz-why-covered/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/business-email-compromise-nz-most-common-claim/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/nz-cyber-security-strategy-2026-what-businesses-need-to-know/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-for-healthcare-nz-privacy-code/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/ai-threats-cyber-insurance-nz-2026/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-claims-process-nz-what-to-expect/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/social-engineering-fraud-nz-cyber-insurance/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-nz-small-business-guide-2026/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/ransomware-recovery-nz-guide-cyber-insurance/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/cyber-insurance-professional-services-nz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/nz-cyber-threat-report-2025-what-businesses-need-to-know/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/deepfake-and-ai-fraud-nz-cyber-insurance-2026/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/supply-chain-cyber-attack-insurance-nz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cybercover.co.nz/blog/cloud-security-breach-insurance-nz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>

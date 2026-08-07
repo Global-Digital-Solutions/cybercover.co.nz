@@ -61,7 +61,7 @@ export default function QuoteForm({ compact = false, businessType = '' }: QuoteF
         <input type="text" name="name" required placeholder="Your name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
         <input type="text" name="business" required placeholder="Business name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
         <input type="email" name="email" required placeholder="Email address" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
-        <input type="tel" name="phone" placeholder="Phone (optional)" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
+        <input type="tel" name="phone" required placeholder="021 XXX XXXX" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none" />
         <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-xs text-red-600 text-center">{error}</p>}
         <button type="submit" disabled={loading} className="w-full py-3 bg-teal-600 disabled:bg-slate-400 text-white font-bold rounded-lg hover:bg-teal-700 transition text-sm">
@@ -91,8 +91,8 @@ export default function QuoteForm({ compact = false, businessType = '' }: QuoteF
           <input type="email" name="email" required placeholder="jane@acme.co.nz" className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition" />
         </div>
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-1">Phone Number</label>
-          <input type="tel" name="phone" placeholder="021 123 4567" className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition" />
+          <label className="block text-sm font-semibold text-slate-700 mb-1">Phone Number *</label>
+          <input type="tel" name="phone" required placeholder="021 123 4567" className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition" />
         </div>
         <div>
           <label className="block text-sm font-semibold text-slate-700 mb-1">Industry / Business Type</label>
