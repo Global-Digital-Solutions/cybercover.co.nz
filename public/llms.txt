@@ -58,8 +58,8 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /compare/ — Insurer comparison with feature matrix
 - /businesses/ — Business type index (26 sectors)
 - /businesses/[slug]/ — 26 industry-specific pages with long-form content
-- /blog/ — Cyber insurance resources and guides (19 articles)
-- /blog/[slug]/ — 19 blog posts
+- /blog/ — Cyber insurance resources and guides (20 articles)
+- /blog/[slug]/ — 20 blog posts
 - /about/ — About CyberCover / Cover4You
 - /contact/ — Primary lead capture form
 - /claims/ — Claims process and insurer contacts
@@ -67,7 +67,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /terms/ — Terms of service
 - /disclaimer/ — Referral fee and general advice disclaimer
 
-## Blog Posts (19 articles)
+## Blog Posts (20 articles)
 1. /blog/what-does-cyber-insurance-cover-nz/ — Coverage guide, plain English
 2. /blog/privacy-act-2020-nz-businesses/ — Privacy Act 2020 and cyber insurance
 3. /blog/ransomware-new-zealand-threat-insurance/ — Ransomware threat and insurance
@@ -87,6 +87,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 17. /blog/deepfake-and-ai-fraud-nz-cyber-insurance-2026/ — AI deepfake and voice cloning fraud
 18. /blog/supply-chain-cyber-attack-insurance-nz/ — Supply chain and vendor risk
 19. /blog/cloud-security-breach-insurance-nz/ — M365/AWS misconfiguration breaches
+20. /blog/cyber-insurance-exclusions-what-is-not-covered/ — Policy exclusions, sub-limits and gaps buyers miss
 
 ## Regulatory Bodies
 - Office of the Privacy Commissioner (OPC) — privacy breach notification
