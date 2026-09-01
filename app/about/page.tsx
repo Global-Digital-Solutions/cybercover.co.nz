@@ -37,8 +37,8 @@ export default function AboutPage() {
           <h2>Regulatory Information</h2>
           <p>CyberCover.co.nz is operated by Cover4You, a trading style of GDS. We are a registered financial advice provider. Our services are provided in accordance with the Financial Markets Conduct Act 2013. All financial advice is provided by licensed NZ insurance advisors. We may receive a referral fee from insurers when a policy is arranged through our service. Broker fees may apply on some products and are disclosed upfront.</p>
 
-          <h2>ICNZ Fair Practice</h2>
-          <p>All insurers we work with are recognised by the Insurance Council of New Zealand (ICNZ) or are Lloyd&apos;s of London underwriters operating in NZ. We are committed to the Fair Insurance Code standards of transparency, fairness and prompt claims handling.</p>
+          <h2>Fair Practice</h2>
+          <p>All insurers we work with are appropriately licensed in New Zealand or are Lloyd&apos;s of London underwriters operating in NZ. We are committed to Fair Insurance Code standards of transparency, fairness and prompt claims handling.</p>
         </div>
 
         <div className="mt-12 bg-teal-50 border-2 border-teal-600 rounded-2xl p-8 text-center">
