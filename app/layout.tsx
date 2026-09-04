@@ -3,6 +3,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
+import Analytics from '@/components/Analytics';
 
 export const metadata: Metadata = {
   title: 'Cyber Insurance NZ | CyberCover.co.nz',
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
         <ExitIntentPopup />
+        <Analytics />
       </body>
     </html>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import LeadEvent from '@/components/LeadEvent';
 
 export const metadata: Metadata = {
   title: 'Quote Request Received | CyberCover.co.nz',
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <main className="min-h-screen bg-slate-50 flex items-center justify-center px-4 py-24">
+      <LeadEvent variant="quote_form" />
       <div className="max-w-lg mx-auto text-center">
         <div className="w-20 h-20 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6">
           <span className="text-4xl">✓</span>
