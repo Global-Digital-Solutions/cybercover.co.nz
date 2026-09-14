@@ -67,7 +67,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /terms/ — Terms of service
 - /disclaimer/ — Referral fee and general advice disclaimer
 
-## Blog Posts (20 articles)
+## Blog Posts (21 articles)
 1. /blog/what-does-cyber-insurance-cover-nz/ — Coverage guide, plain English
 2. /blog/privacy-act-2020-nz-businesses/ — Privacy Act 2020 and cyber insurance
 3. /blog/ransomware-new-zealand-threat-insurance/ — Ransomware threat and insurance
@@ -88,6 +88,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 18. /blog/supply-chain-cyber-attack-insurance-nz/ — Supply chain and vendor risk
 19. /blog/cloud-security-breach-insurance-nz/ — M365/AWS misconfiguration breaches
 20. /blog/cyber-insurance-exclusions-what-is-not-covered/ — Policy exclusions, sub-limits and gaps buyers miss
+21. /blog/cyber-insurance-application-requirements-what-insurers-ask/ — Underwriting requirements: MFA, tested backups, EDR, payment verification
 
 ## Regulatory Bodies
 - Office of the Privacy Commissioner (OPC) — privacy breach notification
