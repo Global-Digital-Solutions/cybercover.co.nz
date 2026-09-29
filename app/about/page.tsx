@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About CyberCover | NZ Cyber Insurance Specialists | CyberCover.co.nz',
   description: 'CyberCover is a specialist cyber insurance broker referral service for New Zealand businesses. Free advice from licensed NZ advisors who understand the cyber threat landscape.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/about/' },
 };
 
 export default function AboutPage() {

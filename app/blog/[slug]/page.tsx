@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${post.title} | CyberCover Blog`,
     description: post.excerpt,
     openGraph: { title: post.title, description: post.excerpt, type: 'article', publishedTime: post.date, authors: [post.author] },
+    alternates: { canonical: `https://www.cybercover.co.nz/blog/${slug}/` },
   };
 }
 

@@ -6,6 +6,7 @@ import { faqs } from '@/data/faqs';
 export const metadata: Metadata = {
   title: 'Cyber Insurance Coverage Guide NZ | What\'s Covered | CyberCover',
   description: 'Complete guide to cyber insurance coverage in New Zealand. Data breach response, ransomware, business interruption, social engineering, regulatory defence and more.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/coverage/' },
 };
 
 const coverageTypes = [

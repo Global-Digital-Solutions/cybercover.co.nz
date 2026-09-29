@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'Privacy Policy | CyberCover.co.nz', description: 'Privacy Policy for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.' };
+export const metadata: Metadata = { title: 'Privacy Policy | CyberCover.co.nz', description: 'Privacy Policy for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/privacy/' },
+};
 export default function PrivacyPage() {
   return (
     <>

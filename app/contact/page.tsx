@@ -4,6 +4,7 @@ import QuoteForm from '@/components/QuoteForm';
 export const metadata: Metadata = {
   title: 'Get a Cyber Insurance Quote | Free NZ Broker Advice | CyberCover',
   description: 'Get a free cyber insurance quote from licensed NZ brokers. We compare policies from multiple insurers to find the right cover for your business. Respond within 1 business day.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/contact/' },
 };
 
 export default function ContactPage() {

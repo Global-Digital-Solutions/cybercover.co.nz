@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'Disclaimer | CyberCover.co.nz', description: 'Disclaimer for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.' };
+export const metadata: Metadata = { title: 'Disclaimer | CyberCover.co.nz', description: 'Disclaimer for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/disclaimer/' },
+};
 export default function DisclaimerPage() {
   return (
     <>

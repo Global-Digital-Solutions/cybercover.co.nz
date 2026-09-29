@@ -5,6 +5,7 @@ import { businessTypes } from '@/data/business-types';
 export const metadata: Metadata = {
   title: 'Cyber Insurance by Business Type | CyberCover.co.nz',
   description: 'Cyber insurance tailored to your industry. Find expert cover for small businesses, healthcare, legal, retail, technology, financial services and more NZ business types.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/businesses/' },
 };
 
 export default function BusinessesPage() {

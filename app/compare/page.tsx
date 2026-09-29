@@ -5,6 +5,7 @@ import { insurers } from '@/data/insurers';
 export const metadata: Metadata = {
   title: 'Compare Cyber Insurance Providers NZ | CyberCover.co.nz',
   description: 'Compare cyber insurance providers available in New Zealand. Chubb, AIG, Zurich, Delta Insurance, QBE and more. Expert broker advice to find the right fit.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/compare/' },
 };
 
 const badgeColors: Record<string, string> = {

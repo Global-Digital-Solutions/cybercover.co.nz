@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     description: 'Expert cyber insurance for NZ businesses. Licensed brokers. Free quotes. Data breach, ransomware, business interruption cover.',
     type: 'website',
   },
+  alternates: { canonical: 'https://www.cybercover.co.nz/' },
 };
 
 const stats = [

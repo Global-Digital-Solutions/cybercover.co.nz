@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'Terms of Service | CyberCover.co.nz', description: 'Terms of Service for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.' };
+export const metadata: Metadata = { title: 'Terms of Service | CyberCover.co.nz', description: 'Terms of Service for CyberCover.co.nz — operated by Cover4You, a trading style of GDS.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/terms/' },
+};
 export default function TermsPage() {
   return (
     <>

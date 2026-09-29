@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Making a Cyber Insurance Claim | CyberCover.co.nz',
   description: 'What to do if your business suffers a cyber attack. How to make a cyber insurance claim, who to contact, and steps to take immediately to protect your business.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/claims/' },
 };
 
 export default function ClaimsPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Quote Request Received | CyberCover.co.nz',
   description: 'Thank you — your cyber insurance quote request has been received. A licensed NZ broker will be in touch within 1 business day.',
   robots: 'noindex',
+  alternates: { canonical: 'https://www.cybercover.co.nz/thank-you/' },
 };
 
 export default function ThankYouPage() {

@@ -5,6 +5,7 @@ import { blogPosts } from '@/data/blog-posts';
 export const metadata: Metadata = {
   title: 'Cyber Insurance Resources | NZ Business Guides | CyberCover.co.nz',
   description: 'Expert resources on cyber insurance for NZ businesses. Data breach response, ransomware, Privacy Act compliance, cost guides and more.',
+  alternates: { canonical: 'https://www.cybercover.co.nz/blog/' },
 };
 
 export default function BlogPage() {
