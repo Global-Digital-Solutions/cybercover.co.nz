@@ -22,6 +22,7 @@ Help NZ businesses find the right cyber insurance through licensed broker advice
 - Only 6% of NZ small businesses have cyber insurance
 - Privacy Act 2020: mandatory breach notification, penalties up to $10,000
 - Privacy Act civil penalty reforms under consideration (2026)
+- IPP3A (indirect collection notification) in force from 1 May 2026
 - NZ Cyber Security Strategy 2026–2030 published February 2026
 - OPC 2024-25: 43% increase in serious privacy breaches notified
 - Late 2025: Manage My Health breach — 120,000 patient records compromised
@@ -58,8 +59,8 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /compare/ — Insurer comparison with feature matrix
 - /businesses/ — Business type index (26 sectors)
 - /businesses/[slug]/ — 26 industry-specific pages with long-form content
-- /blog/ — Cyber insurance resources and guides (20 articles)
-- /blog/[slug]/ — 20 blog posts
+- /blog/: Cyber insurance resources and guides (22 articles)
+- /blog/[slug]/: 22 blog posts
 - /about/ — About CyberCover / Cover4You
 - /contact/ — Primary lead capture form
 - /claims/ — Claims process and insurer contacts
@@ -67,7 +68,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /terms/ — Terms of service
 - /disclaimer/ — Referral fee and general advice disclaimer
 
-## Blog Posts (21 articles)
+## Blog Posts (22 articles)
 1. /blog/what-does-cyber-insurance-cover-nz/ — Coverage guide, plain English
 2. /blog/privacy-act-2020-nz-businesses/ — Privacy Act 2020 and cyber insurance
 3. /blog/ransomware-new-zealand-threat-insurance/ — Ransomware threat and insurance
@@ -89,11 +90,13 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 19. /blog/cloud-security-breach-insurance-nz/ — M365/AWS misconfiguration breaches
 20. /blog/cyber-insurance-exclusions-what-is-not-covered/ — Policy exclusions, sub-limits and gaps buyers miss
 21. /blog/cyber-insurance-application-requirements-what-insurers-ask/ — Underwriting requirements: MFA, tested backups, EDR, payment verification
+22. /blog/ipp3a-indirect-collection-privacy-notice-businesses/: IPP3A (in force 1 May 2026): notifying people when you collect their information from a third party
 
 ## Regulatory Bodies
 - Office of the Privacy Commissioner (OPC) — privacy breach notification
-- Financial Markets Authority (FMA) — FMCA licensed advisors
-- Insurance Council of NZ (ICNZ) — Fair Practice standards
+- Financial Markets Authority (FMA): financial advice regulator
 - CERT NZ — cyber threat reporting and guidance
 - NCSC — National Cyber Security Centre
 - FSCL / IFSO — dispute resolution schemes
+
+Last updated: 14 October 2026

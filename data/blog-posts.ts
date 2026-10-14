@@ -71,46 +71,50 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'privacy-act-2020-nz-businesses',
     title: 'The Privacy Act 2020 and Your Business: What You Need to Know',
-    excerpt: 'New Zealand\'s Privacy Act 2020 introduced mandatory breach notification obligations for all businesses. Here\'s what that means for your cyber risk — and how insurance helps.',
+    excerpt: 'The Privacy Act 2020 made notifying serious privacy breaches mandatory, and a new principle on indirect collection took effect on 1 May 2026. Here is what that means for your cyber risk and how insurance fits.',
     author: 'CyberCover Team',
-    date: '2026-04-08',
+    date: '2026-10-14',
     category: 'Regulation',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80',
     readTime: '6 min read',
     content: `
-<h2>What the Privacy Act 2020 Means for NZ Businesses</h2>
-<p>The Privacy Act 2020 replaced New Zealand's previous privacy legislation and introduced significant new obligations for all businesses that collect and hold personal information about New Zealanders.</p>
+<h2>What the Privacy Act 2020 Means for Your Business</h2>
+<p>The Privacy Act 2020 replaced the Privacy Act 1993 and introduced significant new obligations for businesses that collect and hold personal information. It has since been amended, most notably by the <a href="https://www.legislation.govt.nz/act/public/2025/53/en/latest/" target="_blank" rel="noopener noreferrer">Privacy Amendment Act 2025</a>, which added a new information privacy principle from 1 May 2026.</p>
 
 <h3>Mandatory Breach Notification</h3>
-<p>The most significant change for businesses is the mandatory breach notification requirement. Under the Act, you must notify the Office of the Privacy Commissioner (OPC) and affected individuals when a privacy breach occurs that has caused — or is likely to cause — serious harm.</p>
-<p>Serious harm includes situations where individuals may suffer financial loss, physical harm, significant humiliation, or where sensitive information is exposed. In practice, most significant data breaches will meet this threshold.</p>
+<p>The most significant change for businesses is mandatory breach notification. The Office of the Privacy Commissioner (OPC) explains that a <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/536/" target="_blank" rel="noopener noreferrer">notifiable privacy breach</a> is one where personal information has been accessed, disclosed, altered, lost or destroyed without authorisation, and it is reasonable to believe an affected individual has suffered serious harm or is likely to. When that threshold is met, the OPC's <a href="https://www.privacy.org.nz/responsibilities/privacy-breaches/" target="_blank" rel="noopener noreferrer">privacy breach guidance</a> says you must notify the Privacy Commissioner and any affected people as soon as you are practically able.</p>
+<p>The OPC gives examples of serious harm including physical harm or intimidation, financial or credit fraud, family violence, and psychological or emotional harm. It has <a href="https://www.privacy.org.nz/news/statements-media-releases/how-long-is-72-hours/" target="_blank" rel="noopener noreferrer">said it expects</a> notification within 72 hours of an agency becoming aware that a breach is notifiable, and its NotifyUs tool helps businesses assess whether a breach meets the threshold.</p>
 
 <h3>The Cost of Notification</h3>
-<p>Notifying affected individuals sounds straightforward, but the costs add up quickly. For a business with 5,000 customers, a breach notification programme typically includes:</p>
+<p>Notifying affected individuals sounds straightforward, but the work adds up quickly. A breach notification programme can involve:</p>
 <ul>
 <li>Legal review of notification obligations and content</li>
 <li>Individual notification letters or emails</li>
-<li>Call centre setup to handle customer enquiries</li>
-<li>Credit monitoring services where financial data was exposed</li>
-<li>Media statement and communications management</li>
+<li>A call centre or helpline to handle customer enquiries</li>
+<li>Credit or identity monitoring where financial or identity data was exposed</li>
+<li>Media statements and communications management</li>
 </ul>
-<p>These costs can easily reach $50,000–$150,000 for a mid-sized NZ business — and cyber insurance covers all of them.</p>
+<p>The total depends heavily on how many people are affected, what information was involved, and how quickly the business can establish the facts. These are the costs that the breach response section of a cyber policy is typically designed to address, subject to the limits and conditions in the wording.</p>
 
-<h3>Penalties for Non-Compliance</h3>
-<p>Failing to notify when required is an offence under the Privacy Act. The Privacy Commissioner can refer matters to the Human Rights Review Tribunal, which can award compensation of up to $350,000. Criminal fines of up to $10,000 apply for certain offences including obstruction and false statements.</p>
+<h3>Penalties and Consequences</h3>
+<p>The OPC's <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/209/" target="_blank" rel="noopener noreferrer">guidance on consequences</a> states that failing to report a notifiable privacy breach to the OPC is an offence under section 118 of the Privacy Act 2020. Separately, an affected person can complain to the OPC, and the same guidance explains that matters which cannot be resolved can be taken to the Human Rights Review Tribunal. The Tribunal decides whether to award compensation; the OPC notes that less serious cases range up to $10,000, more serious cases sit between $10,000 and about $50,000, the most serious start at $50,000, and the highest award so far is just over $168,000.</p>
+
+<h3>New From 1 May 2026: Information You Collect From Someone Else</h3>
+<p>The <a href="https://www.justice.govt.nz/justice-sector-policy/key-initiatives/enhancing-the-privacy-act" target="_blank" rel="noopener noreferrer">Ministry of Justice</a> confirms that IPP3A came into force on 1 May 2026. It requires a business that collects personal information about someone from a third party, such as a referral partner or data provider, to take reasonable steps to tell that person about the collection, its purpose, the intended recipients, who holds the information, and their rights of access and correction, unless an exception applies. We cover the detail in <a href="https://www.cybercover.co.nz/blog/ipp3a-indirect-collection-privacy-notice-businesses/">IPP3A explained</a>.</p>
 
 <h3>Practical Steps for Businesses</h3>
 <p>To meet your Privacy Act obligations, businesses should:</p>
 <ul>
-<li>Maintain a data register — know what personal data you hold and where</li>
-<li>Have an incident response plan that includes a breach notification process</li>
+<li>Maintain a data register: know what personal information you hold, where it is stored, and where it came from</li>
+<li>Have an incident response plan that includes a breach assessment and notification process</li>
 <li>Train staff to recognise and report potential breaches promptly</li>
-<li>Appoint a Privacy Officer (required under the Act)</li>
-<li>Ensure cyber insurance covers breach response and regulatory defence</li>
+<li>Appoint a privacy officer; the OPC states that <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/179/" target="_blank" rel="noopener noreferrer">every agency is required to have one</a></li>
+<li>Review privacy statements and partner agreements for indirect collection under IPP3A</li>
+<li>Check that your cyber insurance includes breach response and regulatory investigation cover</li>
 </ul>
 
 <h3>How Cyber Insurance Helps</h3>
-<p>Cyber insurance policies specifically address Privacy Act compliance by covering: legal advice on notification obligations, notification costs, regulatory investigation defence, and any resulting penalties (where legally insurable). This allows businesses to respond quickly and correctly without worrying about whether they can afford to comply.</p>
+<p>Many cyber policies include sections covering legal advice on notification obligations, notification and breach response costs, and the costs of responding to a regulatory investigation. Whether fines or penalties are covered is more limited and depends on the wording and on whether they are legally insurable. Checking those sections before an incident allows a business to respond quickly and correctly, rather than working out what is covered in the middle of a breach.</p>
     `,
   },
   {
@@ -779,6 +783,85 @@ export const blogPosts: BlogPost[] = [
 <h2>Getting the Disclosure Right</h2>
 <p>One theme runs through all of this. The proposal form is a disclosure document, and the answers become part of the basis on which the policy is issued. Overstating your controls to secure a better price creates a risk far worse than the premium saving, because it gives the insurer grounds to question the claim at the point you most need it paid. Where you are unsure of an answer, say so and let the underwriter ask a follow-up question. Where a control is partially in place, describe the scope rather than answering yes.</p>
 <p>Businesses that approach the application as an honest stocktake generally end up better protected and better insured than those who treat it as an obstacle. If you would like help working through a cyber proposal form, or a comparison of how different insurers assess the same set of controls, complete the enquiry form and one of our referred advisers will be in touch to discuss your situation and arrange terms. Financial advice is provided by Cover4You, Registered Financial Service Providers.</p>
+    `,
+  },
+  {
+    slug: 'ipp3a-indirect-collection-privacy-notice-businesses',
+    title: 'IPP3A Explained: Your Duty When Personal Information Comes From Someone Else',
+    excerpt: 'Since 1 May 2026, businesses that collect personal information from a third party usually have to tell the person concerned. Here is what the new privacy principle requires, the exceptions, and why the same data mapping helps when a breach happens.',
+    author: 'CyberCover Team',
+    date: '2026-10-14',
+    category: 'Regulation',
+    image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1200&q=80',
+    readTime: '9 min read',
+    content: `
+<h2>A New Privacy Principle Took Effect on 1 May 2026</h2>
+<p>Most businesses collect personal information about people they have never spoken to. A referral partner passes on a client's details, a recruiter forwards a CV, a franchisor shares a customer list, a parent fills in a form on behalf of a child, or an insurer asks a repairer about damage to a customer's vehicle. Until this year, the Privacy Act 2020 set out what you had to tell people when you collected information directly from them, but said little about information that arrived from somewhere else. That gap has now closed.</p>
+<p>The <a href="https://www.legislation.govt.nz/act/public/2025/53/en/latest/" target="_blank" rel="noopener noreferrer">Privacy Amendment Act 2025</a> received Royal Assent on 23 September 2025 and inserted a new information privacy principle, IPP3A, into the Privacy Act. According to the <a href="https://www.justice.govt.nz/justice-sector-policy/key-initiatives/enhancing-the-privacy-act" target="_blank" rel="noopener noreferrer">Ministry of Justice</a>, the change was made to improve transparency about the collection of personal information, and IPP3A came into force on 1 May 2026. The Ministry also notes that the amendment is designed to help retain the country's adequacy status with the European Union, after the EU identified indirect collection as a gap.</p>
+<p>The transitional provision in the amending Act is clear that IPP3A does not apply to personal information collected before 1 May 2026. Anything you have gathered from a third party since that date, however, is in scope.</p>
+
+<h2>What IPP3A Requires</h2>
+<p>IPP3A applies when an agency collects personal information about an individual from someone other than that individual. In that situation the agency must take steps that are reasonable in the circumstances to make the individual aware of:</p>
+<ul>
+<li>the fact that the information has been collected</li>
+<li>the purpose for which it was collected</li>
+<li>the intended recipients of the information</li>
+<li>the name and address of the agency that collected it and the agency that holds it</li>
+<li>if the collection is authorised or required by law, the particular law involved</li>
+<li>the individual's rights to access and correct the information</li>
+</ul>
+<p>Those steps must be taken as soon as reasonably practicable after the information is collected, unless they were taken earlier. The list closely mirrors IPP3, which already applied to direct collection, so many businesses will be able to adapt the privacy statement they already use rather than starting from scratch.</p>
+<p>The <a href="https://www.privacy.org.nz/resources-and-learning/a-z-topics/ipp3a/" target="_blank" rel="noopener noreferrer">Office of the Privacy Commissioner's IPP3A guidance</a> adds some useful detail on what a good notice looks like. It says the purpose must be specific, and that "it is not enough to say, 'for business purposes.'" Recipients should be named where you share routinely, or described by type, sector and location where naming them is impractical. Contact details can be an email address or website rather than a street address, and the access and correction explanation should point to a clear process such as a contact address or online form. The guidance also reminds agencies that they still need a proper basis under IPP2 to collect information indirectly in the first place; IPP3A deals with telling people, not with whether the collection is allowed.</p>
+
+<h2>Timing: When You Have to Tell People</h2>
+<p>The legal test is "as soon as reasonably practicable" after collection. The Commissioner's guidance says agencies must be able to justify any delay and recommends documenting the reasoning. One of its examples involves a business that received a partner's marketing list and held its notice until the campaign began, which the guidance treats as reasonable in that context.</p>
+<p>In practice, the cleanest approach is usually to deal with notice at the point of first contact. If you receive a referral and your first step is to email or call the person, that first message is the natural place to explain where you got their details, why you have them, and how they can see or correct what you hold.</p>
+
+<h2>The Exceptions, and Why They Are Narrower Than They Look</h2>
+<p>IPP3A carries its own set of exceptions, several of which will sound familiar from IPP3. You do not need to take the notification steps where, among other things:</p>
+<ul>
+<li>the individual has already been made aware of all of the required matters, for example by the agency that disclosed the information to you</li>
+<li>the information is publicly available</li>
+<li>you reasonably believe that not complying would not prejudice the individual's interests</li>
+<li>complying would prejudice the purpose of the collection</li>
+<li>complying is not reasonably practicable in the circumstances</li>
+<li>the information will not be used in a form that identifies the individual, or will be used only for statistical or research purposes</li>
+</ul>
+<p>There are further exceptions for law enforcement, court proceedings, public revenue, health and safety threats, archiving, national security and international relations, and for situations where complying would reveal a trade secret or unreasonably prejudice someone's commercial position.</p>
+<p>The Commissioner's guidance takes a careful line on several of these. Assuming that a person probably already knows is not enough to rely on the "already aware" exception. Publicly available information means sources such as public registers or public websites, and the guidance says it does not include private social media. The "not reasonably practicable" exception is not met by inconvenience or cost alone, and the guidance states plainly that "having incompatible systems or processes is not a valid reason." Where a business wants to rely on the exception for prejudicing the purpose, for instance during a fraud investigation, the guidance advises taking great care and seeking professional advice.</p>
+
+<h2>Common Situations Where IPP3A Applies</h2>
+<p>The Commissioner's guidance works through several examples that map closely onto everyday business activity. A garden business that refers clients to an arborist and passes on their details satisfies the rule by naming the arborist on its client form and linking to the arborist's privacy policy. An insurer that asks a repairer about a customer's car damage is collecting indirectly, and the repairer separately needs a lawful basis under IPP11 to disclose. A school that collects medical details from parents should cover the IPP3A matters in its form so that parents can pass them on. Where a business buys another business and inherits a loyalty programme, the guidance suggests notification may not be needed if prejudice to members is unlikely.</p>
+<p>Other common sources of indirectly collected information include referral partners, lead lists, employment references, background checks, debt collection, and personal information about third parties that customers volunteer in the course of a transaction. Each of these is worth testing against the principle.</p>
+
+<h2>Cloud and IT Providers Do Not Carry the Obligation for You</h2>
+<p>Many businesses rely on payroll platforms, customer relationship management systems, managed IT providers and cloud storage. Section 11 of the <a href="https://legislation.govt.nz/act/public/2020/31/en/2026-05-01.pdf" target="_blank" rel="noopener noreferrer">Privacy Act 2020</a> provides that where one agency holds personal information only on behalf of another, the information is treated as held by the agency it is held for, not by the provider, unless the provider uses or discloses it for its own purposes. The IPP3A guidance applies the same logic: where a third-party provider only holds data for a client and does not use it for its own ends, the client is responsible for IPP3A.</p>
+<p>The practical consequence is that outsourcing a system does not outsource the obligation. If your CRM vendor enriches contact records from a third-party data source on your instructions, or your recruitment platform pulls in candidate information from elsewhere, the notification duty generally sits with your business. The guidance recommends building notice requirements into contracts with partners and suppliers so the steps actually happen.</p>
+
+<h2>Why IPP3A Matters for Cyber Risk</h2>
+<p>At first glance a notification rule looks like a paperwork exercise rather than a security issue. The connection is the data map. The first practical step the Commissioner recommends is to map which personal information you collect directly and which you collect indirectly. That is exactly the inventory a business needs when something goes wrong.</p>
+<p>When personal information is accessed or disclosed without authorisation, the agency needs to work out whether it is a notifiable privacy breach. The Commissioner's <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/536/" target="_blank" rel="noopener noreferrer">knowledge base</a> describes a notifiable breach as one where it is reasonable to believe an affected individual has suffered, or is likely to suffer, serious harm, and says the agency must notify the Commissioner as soon as practicable. The Office has <a href="https://www.privacy.org.nz/news/statements-media-releases/how-long-is-72-hours/" target="_blank" rel="noopener noreferrer">said it expects</a> that to happen within 72 hours of becoming aware that a breach is notifiable. The Commissioner's <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/209/" target="_blank" rel="noopener noreferrer">guidance on consequences</a> notes that failing to report a notifiable privacy breach is an offence under section 118 of the Privacy Act 2020, and its <a href="https://www.privacy.org.nz/responsibilities/privacy-breaches/" target="_blank" rel="noopener noreferrer">privacy breach guidance</a> says affected people must also be told as soon as you are practically able.</p>
+<p>A business that has never mapped where its personal information came from tends to struggle with that assessment. It may not know which records were in the compromised system, whose details they were, or whether it even holds contact details for the people affected. Information that came from third parties is the most likely to be poorly documented. The same exercise that satisfies IPP3A shortens the most stressful part of a breach response.</p>
+<p>There is also a simpler point about volume. Every record you collect is a record that can be exposed. Unauthorised access was behind a reported direct loss of $1.3 million in the National Cyber Security Centre's <a href="https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026" target="_blank" rel="noopener noreferrer">Quarter Two 2026 Cyber Security Insights</a>, roughly half of all reported direct financial loss for the quarter. Reviewing indirect collection is a natural moment to ask whether you need the information at all, and to stop collecting what you do not use.</p>
+
+<h2>Complaints and Consequences</h2>
+<p>A breach of an information privacy principle is not automatically actionable. The Commissioner explains that an <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/210/" target="_blank" rel="noopener noreferrer">interference with privacy</a> occurs when an agency breaches a privacy principle and that breach causes harm, and that a breach without harm is not usually an interference with privacy. Where harm does follow, the Commissioner's <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/209/" target="_blank" rel="noopener noreferrer">guidance on consequences</a> explains that an affected person can complain to the Office, and that matters which cannot be resolved can reach the Human Rights Review Tribunal, which decides whether to award compensation. Beyond the legal process, a customer who discovers that a business has been holding their details without ever telling them is unlikely to be impressed, and that reputational cost can arrive well before any formal complaint.</p>
+
+<h2>A Practical Checklist</h2>
+<p>Drawing on the Commissioner's recommended steps, a sensible IPP3A review for a small or medium business looks like this:</p>
+<ul>
+<li>List every route by which personal information reaches you from someone other than the person concerned, including referrals, partners, platforms and data providers.</li>
+<li>For each route, decide whether the person has already been told the required matters by the source, and keep evidence of that notice if you rely on it.</li>
+<li>Update your privacy statement so it covers indirect collection specifically, and make it easy to find from your first contact with the person.</li>
+<li>Add notification wording to referral forms, partner agreements and supplier contracts.</li>
+<li>Document any decision to delay notice or rely on an exception, with the reason.</li>
+<li>Use the same inventory to confirm where the information is stored, who can access it, and how you would contact the people concerned after a breach.</li>
+</ul>
+<p>The Commissioner publishes full IPP3A guidance and a decision flowchart on the <a href="https://www.privacy.org.nz/resources-and-learning/a-z-topics/ipp3a/" target="_blank" rel="noopener noreferrer">IPP3A topic page</a>, and these are the best starting point for any business working through the change.</p>
+
+<h2>Where Cyber Insurance Fits</h2>
+<p>IPP3A is a compliance obligation, and no insurance policy replaces the work of meeting it. Where cyber insurance becomes relevant is when personal information is compromised: many cyber policies include sections for breach response costs, legal advice on notification obligations, and the costs of responding to a privacy regulator's investigation. How far those sections extend, and what conditions attach to them, varies between policy wordings, so it is worth checking the detail rather than assuming. For background, see our guides to <a href="https://www.cybercover.co.nz/blog/privacy-act-2020-nz-businesses/">the Privacy Act 2020 and your business</a> and <a href="https://www.cybercover.co.nz/blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/">how mandatory breach notification works</a>.</p>
+<p>If you would like to talk through cyber cover for your business, complete the enquiry form and your details will be passed to a referred adviser who can discuss your situation.</p>
     `,
   },
 ];
