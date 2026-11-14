@@ -28,7 +28,7 @@ Help NZ businesses find the right cyber insurance through licensed broker advice
 - Late 2025: Manage My Health breach — 120,000 patient records compromised
 - BEC (business email compromise) is NZ's most common cyber claim
 - ANZ businesses 9% more likely than global average to experience significant cyberattack
-- NCSC 2025 report: ransomware and BEC losses reached record levels
+- NCSC Cyber Threat Report 2025 (2024/25): 5,995 incidents reported, $26.9m direct financial loss, 41% of nationally significant incidents criminal or financially motivated
 - AI-generated deepfake and voice cloning fraud incidents increasing sharply
 
 ## Coverage Types
@@ -59,8 +59,8 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /compare/ — Insurer comparison with feature matrix
 - /businesses/ — Business type index (26 sectors)
 - /businesses/[slug]/ — 26 industry-specific pages with long-form content
-- /blog/: Cyber insurance resources and guides (22 articles)
-- /blog/[slug]/: 22 blog posts
+- /blog/: Cyber insurance resources and guides (23 articles)
+- /blog/[slug]/: 23 blog posts
 - /about/ — About CyberCover / Cover4You
 - /contact/ — Primary lead capture form
 - /claims/ — Claims process and insurer contacts
@@ -68,7 +68,7 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - /terms/ — Terms of service
 - /disclaimer/ — Referral fee and general advice disclaimer
 
-## Blog Posts (22 articles)
+## Blog Posts (23 articles)
 1. /blog/what-does-cyber-insurance-cover-nz/ — Coverage guide, plain English
 2. /blog/privacy-act-2020-nz-businesses/ — Privacy Act 2020 and cyber insurance
 3. /blog/ransomware-new-zealand-threat-insurance/ — Ransomware threat and insurance
@@ -84,13 +84,14 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 13. /blog/cyber-insurance-nz-small-business-guide-2026/ — Complete 2026 small business guide
 14. /blog/ransomware-recovery-nz-guide-cyber-insurance/ — Ransomware recovery guide
 15. /blog/cyber-insurance-professional-services-nz/ — Professional services guide
-16. /blog/nz-cyber-threat-report-2025-what-businesses-need-to-know/ — NCSC 2025 annual threat report
+16. /blog/nz-cyber-threat-report-2025-what-businesses-need-to-know/: NCSC Cyber Threat Report 2025 findings, with 2026 report headline figures
 17. /blog/deepfake-and-ai-fraud-nz-cyber-insurance-2026/ — AI deepfake and voice cloning fraud
 18. /blog/supply-chain-cyber-attack-insurance-nz/ — Supply chain and vendor risk
 19. /blog/cloud-security-breach-insurance-nz/ — M365/AWS misconfiguration breaches
 20. /blog/cyber-insurance-exclusions-what-is-not-covered/ — Policy exclusions, sub-limits and gaps buyers miss
 21. /blog/cyber-insurance-application-requirements-what-insurers-ask/ — Underwriting requirements: MFA, tested backups, EDR, payment verification
 22. /blog/ipp3a-indirect-collection-privacy-notice-businesses/: IPP3A (in force 1 May 2026): notifying people when you collect their information from a third party
+23. /blog/qr-code-phishing-quishing-business-risk/: QR code phishing (quishing): fake codes on parking meters and in parcel emails, risks to staff, payments and customers, and controls
 
 ## Regulatory Bodies
 - Office of the Privacy Commissioner (OPC) — privacy breach notification
@@ -99,4 +100,4 @@ Each industry page includes: sector-specific risk analysis, NZ regulatory contex
 - NCSC — National Cyber Security Centre
 - FSCL / IFSO — dispute resolution schemes
 
-Last updated: 14 October 2026
+Last updated: 14 November 2026

@@ -564,35 +564,66 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'nz-cyber-threat-report-2025-what-businesses-need-to-know',
     title: 'What the 2025 NCSC Threat Report Means for Your Business',
-    excerpt: 'The NCSC\'s 2025 annual threat report confirms that cyber attacks on NZ businesses rose sharply last year. Here\'s what the data shows and what your business should do about it.',
+    excerpt: 'The NCSC\'s Cyber Threat Report 2025 covers incidents from July 2024 to June 2025. Criminal and financially motivated activity rose sharply among the most serious incidents, ransomware reports increased, and reported direct losses reached $26.9 million. Here is what the report found and what it means for businesses.',
     author: 'CyberCover Team',
-    date: '2026-07-01',
+    date: '2026-11-14',
     category: 'Threat Intelligence',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80',
-    readTime: '7 min read',
+    readTime: '8 min read',
     content: `
-<h2>The NCSC's 2025 Annual Threat Report: Key Findings</h2>
-<p>Each year, the National Cyber Security Centre (NCSC) — the government's cyber defence agency operating under the GCSB — publishes a detailed threat landscape report based on incidents reported to its systems and intelligence gathered from its monitoring of nationally significant networks. The 2025 report, covering incidents from the 2024–25 financial year, presents a detailed picture of the threat environment facing businesses and government organisations across the country. The picture it paints is sobering.</p>
+<h2>The Cyber Threat Report 2025 at a Glance</h2>
+<p>Each year the National Cyber Security Centre (NCSC) publishes an annual threat report drawing on incidents reported to it and on its own detection work. The <a href="https://www.ncsc.govt.nz/assets/insights/cyber-threat-report/NCSC-CyberReport2025-FINAL.pdf" target="_blank" rel="noopener noreferrer">Cyber Threat Report 2025</a> covers the period 1 July 2024 to 30 June 2025 and was <a href="https://www.ncsc.govt.nz/news/are-you-prepared-for-a-serious-cyber-security-incident/" target="_blank" rel="noopener noreferrer">released on 2 December 2025</a>. In launching it, NCSC Chief Operating Officer Michael Jagusch said: "Many New Zealand businesses and organisations make the mistake of assuming they are not big enough."</p>
+<p>The NCSC's <a href="https://www.ncsc.govt.nz/insights-and-research/cyber-threat-reports/cyber-threat-report-2025/by-the-numbers-2024-25/" target="_blank" rel="noopener noreferrer">by the numbers summary</a> sets out the headline figures:</p>
+<ul>
+<li>5,995 incidents were reported, down from 7,122 in 2023/24.</li>
+<li>331 were triaged as incidents of potential national significance, compared with 343 the year before.</li>
+<li>Reported direct financial loss was $26.9 million, up from $21.6 million.</li>
+<li>The NCSC estimates its detection services prevented $47.9 million of harm, up from $38.8 million.</li>
+</ul>
+<p>Fewer reports and higher losses is worth pausing on. The overall volume fell, but the money lost to the incidents that were reported went up by roughly a quarter.</p>
 
-<h2>Ransomware Remains the Dominant Threat</h2>
-<p>For the fourth consecutive year, ransomware was identified as the most disruptive threat to businesses with operations here. The NCSC documented a significant increase in incidents where attackers achieved meaningful dwell time inside victim networks before deploying ransomware — often weeks or months — allowing them to exfiltrate sensitive data and map backup systems before encrypting files. This dual-extortion approach, threatening both operational disruption and data publication, substantially increases the pressure on organisations to pay ransoms.</p>
-<p>The report notes a concerning shift toward targeting mid-market businesses — those with revenue between $5 million and $50 million — which attackers have identified as having enough revenue to make ransom payments feasible but typically lacking the dedicated security operations of larger enterprises. If your business falls into this category, you are squarely in the crosshairs of the most active ransomware groups.</p>
+<h2>Criminal Activity Overtook State-Sponsored Activity</h2>
+<p>The clearest shift in the report is in who is behind the most serious incidents. Of the 331 incidents of potential national significance, 137 (41 percent) were likely criminal or financially motivated, up from 65 (19 percent) the year before. Incidents linked to suspected state-sponsored actors fell from 110 to 82, or 25 percent of the total, and the share that could not be attributed dropped from 49 percent to 34 percent.</p>
+<p>That does not mean state-sponsored activity has gone away. The first of the report's five key judgements is that state-sponsored actors are actively targeting the country, pursuing espionage, sabotage and intellectual property theft, often using "living off the land" techniques that rely on legitimate tools already present on a network. But for most businesses, the practical message is that financially motivated criminals are now responsible for a larger share of the serious incidents the NCSC handles.</p>
 
-<h2>Business Email Compromise Losses Exceed Ransomware</h2>
-<p>While ransomware generates headlines, the NCSC report highlights that business email compromise (BEC) continues to cause greater total financial losses than ransomware when measured in dollar terms. BEC attacks — where criminals impersonate executives or suppliers to redirect payments — are harder to detect, require no technical sophistication to execute, and in many cases are not covered by traditional insurance policies. The average BEC loss documented in the 2025 report was substantially higher than in previous years, reflecting increasingly targeted and sophisticated attacks on larger transactions.</p>
+<h2>Ransomware Reports Increased</h2>
+<p>The report records 88 ransomware reports, up from 63 the year before. All moderate to significant ransomware incidents were linked to suspected financially motivated, non-state actors, and the NCSC assesses that more than half of the significant incidents were likely to involve ransomware-as-a-service, where criminal groups rent out their tools to others. Most of the impactful ransomware incidents involved suspected or confirmed data exfiltration, meaning attackers took copies of data as well as locking systems.</p>
+<p>The report states plainly that "The New Zealand Government recommends not paying a ransom." One of the questions it poses for leaders is whether their organisation could continue operating without paying one. Our <a href="https://www.cybercover.co.nz/blog/ransomware-recovery-nz-guide-cyber-insurance/">ransomware recovery guide</a> covers what that preparation looks like in practice.</p>
 
-<h2>Supply Chain Attacks: The Growing Threat</h2>
-<p>The 2025 report identifies third-party and supply chain attacks as one of the fastest-growing threat vectors. Rather than attacking a well-defended target directly, criminal groups and state-sponsored actors are targeting the software vendors, IT service providers, and managed security providers that service multiple organisations. A single successful compromise of a widely-used software platform or IT provider can provide access to hundreds of client environments simultaneously — as demonstrated by several major incidents affecting NZ organisations in the 2024–25 period.</p>
+<h2>What Gets Reported Most</h2>
+<p>The NCSC's <a href="https://www.ncsc.govt.nz/insights-and-research/cyber-threat-reports/cyber-threat-report-2025/incident-reporting-analysis/" target="_blank" rel="noopener noreferrer">incident reporting analysis</a> breaks down the 5,664 incidents handled through general triage. Scams and fraud were the largest category with 2,111 incidents, followed by phishing and credential harvesting with 1,994 and unauthorised access with 954. Malware accounted for 72 and ransomware for 40 in this general triage group. Of all reports, 4,343 came from individuals and 1,321 from organisations, and 1,697 incidents involved a financial loss.</p>
+<p>For businesses, the scale of the scam, phishing and unauthorised access categories is the most relevant point. These are the routes by which staff are tricked into handing over passwords or paying fake invoices, and they are covered in our guides to <a href="https://www.cybercover.co.nz/blog/business-email-compromise-nz-most-common-claim/">business email compromise</a> and <a href="https://www.cybercover.co.nz/blog/social-engineering-fraud-nz-cyber-insurance/">social engineering fraud</a>.</p>
 
-<h2>State-Sponsored Actors: An Elevated Warning</h2>
-<p>For the first time, the 2025 NCSC report included a specific warning about state-sponsored cyber actors conducting espionage operations against private sector entities beyond the traditional targets of government agencies and critical infrastructure. Professional service firms, technology companies, agricultural businesses, and sectors with involvement in strategically significant supply chains were all cited. The objective in these cases is typically intellectual property theft rather than financial gain — but the business disruption and remediation costs are equally real.</p>
+<h2>The Five Key Judgements</h2>
+<p>The report is organised around five judgements, each with questions for leaders:</p>
+<ul>
+<li>State-sponsored actors are actively targeting the country.</li>
+<li>Commercialised cybercrime, including ransomware-as-a-service and AI tools, is lowering the barrier to entry for criminals.</li>
+<li>Hacktivists are targeting organisations here as global conflicts escalate, mainly through denial of service attacks and website defacements aimed at visibility rather than profit.</li>
+<li>Threat actors exploit supply chains, hidden dependencies and blind spots, including legacy technology, misconfigurations, operational technology and third-party vendors.</li>
+<li>Known weaknesses and unpatched vulnerabilities give attackers easy access, with poor patching, weak credentials and misconfigurations common entry points.</li>
+</ul>
 
-<h2>Sectors Most Targeted in 2025</h2>
-<p>The report identifies the top five targeted sectors as: healthcare (including aged care and allied health), professional services (legal, accounting, consulting), retail and e-commerce, local government, and financial services. Notably, the healthcare and professional services categories both saw significantly increased incident volumes compared to the prior year. The NCSC attributes this to the high value and volume of personal data held in these sectors and the relatively slow adoption of multi-factor authentication across them.</p>
+<h2>Supply Chains and Unpatched Systems</h2>
+<p>Two of the judgements deal with weaknesses that sit partly outside a business's direct control. On supply chains, the report notes that both criminals and state actors have compromised IT service providers serving government customers, and that the Log4j vulnerability continues to have "a long tail" here. It also describes a 2025 exposure of credentials linked to a legacy Oracle-hosted cloud service that was estimated to affect over 100,000 customers.</p>
+<p>On known weaknesses, the report states that "the exploitation of public-facing applications continues to be a prevalent initial access vector", and its case studies include a state-linked compromise of a VPN appliance at a medium-sized telecommunications company, and an appliance running outdated firmware with recently disclosed critical vulnerabilities. Leaders are asked how effective their patch management programme is and how well they understand cyber risk across their supply chain. Our article on <a href="https://www.cybercover.co.nz/blog/supply-chain-cyber-attack-insurance-nz/">supply chain cyber attacks</a> looks at how this risk interacts with insurance.</p>
 
-<h2>What This Means for Cyber Insurance</h2>
-<p>Two practical implications flow from the NCSC's 2025 findings. First, the risk of a cyber incident affecting your business is higher than it was 12 months ago — for most sectors, materially so. Second, the nature of attacks has evolved in ways that make the gaps in standard business insurance policies more dangerous: ransomware losses, BEC fraud, and supply chain incident costs are generally not covered by general liability, property, or standard professional indemnity policies.</p>
-<p>Cyber insurance that specifically addresses these risks — incident response costs, forensic investigation, business interruption, BEC fraud losses, and third-party liability — has become a core risk management tool rather than an optional extra. Given the NCSC's documented increase in mid-market targeting, businesses that have previously regarded themselves as "too small to be a target" should review that assumption carefully.</p>
+<h2>What the Report Means for Businesses</h2>
+<p>The report's recommendations are mostly about fundamentals rather than new technology. Alongside its leadership questions, it points to defences such as network segmentation, least privilege, multi-factor authentication and software allow-lists. A practical response for a small or medium business might include:</p>
+<ul>
+<li>Turning on multi-factor authentication for email, cloud services and remote access, starting with administrator accounts.</li>
+<li>Keeping internet-facing systems such as VPNs, firewalls and remote access tools patched, and replacing equipment that no longer receives updates.</li>
+<li>Asking IT providers and key software vendors how they secure access to your systems.</li>
+<li>Keeping offline or immutable backups and testing that they can actually be restored.</li>
+<li>Agreeing in advance how the business would respond to a ransomware demand, given the government's position on payment.</li>
+</ul>
+
+<h2>The 2026 Report Has Since Been Published</h2>
+<p>The NCSC released its <a href="https://www.ncsc.govt.nz/news/cyber-threat-report-2026-leaders-need-to-prepare-now-for-the-impact-of-ai/" target="_blank" rel="noopener noreferrer">Cyber Threat Report 2026</a> on 24 September 2026, covering 2025/26. It reports 369 incidents of potential national significance, of which 162 were linked to criminal or financially motivated actors, an 18 percent increase on the previous year. Four incidents were classified as C2, or highly significant, which the NCSC describes as as many in one year as were recorded over the previous ten years. The 2026 report focuses heavily on artificial intelligence, but its central message is consistent with 2025: "Strong cyber security fundamentals remain the best defence against both human and AI-enabled threats."</p>
+
+<h2>Where Cyber Insurance Fits</h2>
+<p>None of these findings can be insured away, and the NCSC is clear that leaders are responsible for cyber security within their own organisations. What cyber insurance can do is help with the financial consequences when an incident does happen. Depending on the policy wording, that can include incident response and forensic costs, restoring systems and data, business interruption, privacy breach response and claims from third parties. Cover, limits and conditions vary between wordings, so it is worth checking the detail, particularly around ransomware, social engineering and incidents that start with a supplier. See our guide to <a href="https://www.cybercover.co.nz/blog/what-does-cyber-insurance-cover-nz/">what cyber insurance covers</a> for background.</p>
+<p>If you would like to talk through cyber cover for your business, complete the enquiry form and your details will be passed to a referred adviser who can discuss your situation.</p>
     `,
   },
 
@@ -861,6 +892,59 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Where Cyber Insurance Fits</h2>
 <p>IPP3A is a compliance obligation, and no insurance policy replaces the work of meeting it. Where cyber insurance becomes relevant is when personal information is compromised: many cyber policies include sections for breach response costs, legal advice on notification obligations, and the costs of responding to a privacy regulator's investigation. How far those sections extend, and what conditions attach to them, varies between policy wordings, so it is worth checking the detail rather than assuming. For background, see our guides to <a href="https://www.cybercover.co.nz/blog/privacy-act-2020-nz-businesses/">the Privacy Act 2020 and your business</a> and <a href="https://www.cybercover.co.nz/blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/">how mandatory breach notification works</a>.</p>
+<p>If you would like to talk through cyber cover for your business, complete the enquiry form and your details will be passed to a referred adviser who can discuss your situation.</p>
+    `,
+  },
+  {
+    slug: 'qr-code-phishing-quishing-business-risk',
+    title: 'QR Code Phishing: How Fake Codes Target Businesses, Staff and Customers',
+    excerpt: 'Fake QR codes have turned up on parking meters in Christchurch, Auckland and Wellington, and in emails posing as parcel delivery notices. Here is how QR code phishing works, why it matters to businesses as well as individuals, and the practical controls that reduce the risk.',
+    author: 'CyberCover Team',
+    date: '2026-11-14',
+    category: 'Cyber Threats',
+    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80',
+    readTime: '8 min read',
+    content: `
+<h2>A Scam That Hides in Plain Sight</h2>
+<p>QR codes became part of everyday life during the pandemic and never went away. They sit on restaurant tables, invoices, posters, parcels, event tickets and payment screens, and most people scan them without a second thought. That habit is exactly what criminals are now exploiting. QR code phishing, sometimes called "quishing", uses a fraudulent code to send someone to a fake website or a malicious app, where their login details, card numbers or other personal information are captured.</p>
+<p>The National Cyber Security Centre (NCSC) chose the topic for its <a href="https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026/" target="_blank" rel="noopener noreferrer">Quarter Two 2026 Cyber Security Insights</a>, released on 20 August 2026. Its article <a href="https://www.ncsc.govt.nz/insights-and-research/insights-reports/quarter-two-cyber-security-insights-2026/qr-codes-think-before-you-scan/" target="_blank" rel="noopener noreferrer">QR codes: think before you scan</a> explains that fraudulent codes can appear in emails, printed materials or on digital platforms, and can lead either to fake websites that steal personal or payment details or to fake apps that contain malware.</p>
+
+<h2>What Has Been Happening Locally</h2>
+<p>The most visible example has been on parking meters. The NCSC reports that fraudulent QR codes were attached to public and private parking meters around Christchurch, and that scammers also defaced meter screens with permanent marker so that drivers would think scanning the code was the only way to pay. The codes led to a fake payment site, and Christchurch City Council issued a warning after parking wardens found the stickers.</p>
+<p>The problem then spread north. On 8 September 2026, <a href="https://at.govt.nz/about-us/news-events/media-centre/2026-media-releases/aucklanders-warned-about-scam-parking-meter-qr-codes" target="_blank" rel="noopener noreferrer">Auckland Transport warned</a> that scam QR code stickers had been found on a handful of parking meters in the Auckland city centre, with similar codes found in Wellington and Christchurch. Auckland Transport stated that it "does not use QR codes on any of our parking meters or machines", and Police advised that the codes may lead to websites run by offshore scam operations that can use card details fraudulently.</p>
+<p>The NCSC describes a second pattern that reaches people at work as well as at home: emails claiming that a parcel cannot be delivered because of an incorrect address or unpaid customs fees, asking the recipient to scan a QR code. The code leads to a fake site imitating the NZ Post tracking portal. Plenty of businesses receive parcels every day, so a message like this can look entirely routine to whoever opens the shared inbox.</p>
+
+<h2>Why QR Codes Work So Well for Criminals</h2>
+<p>A QR code is just a link that people cannot read. With an ordinary link in an email, a careful reader can hover over it or look at the address before clicking. With a QR code, the destination is invisible until the code has been scanned, and by then the person is often already looking at a convincing page on a small phone screen where the full web address is harder to check.</p>
+<p>The government's Own Your Online service, in its guidance to <a href="https://ownyouronline.govt.nz/news-and-alerts/take-care-with-qr-codes" target="_blank" rel="noopener noreferrer">take care with QR codes</a>, notes that scammers may place boards with malicious codes around car parks, stick a fake code on top of a genuine one, or send codes in printed flyers and online messages about prizes or pending deliveries. Once a scammer has an email address, password or card details, Own Your Online warns, they can commit identity theft or get into email, social media or banking accounts.</p>
+<p>There is also a workplace dimension. When a QR code arrives in a work email, the person who scans it usually does so with their phone, not the computer where the email was opened. Depending on how a business manages its devices, that phone may sit outside some of the protections applied to work laptops, such as web filtering or managed browsers. A login page reached that way can still capture a work password.</p>
+
+<h2>Three Ways QR Phishing Can Hit a Business</h2>
+<h3>1. Staff credentials</h3>
+<p>The most direct risk is a staff member entering their work email or cloud login on a fake page reached through a code. A captured mailbox password is often the first step towards a wider compromise. The NCSC's quarterly figures show how common this family of attack is: in the second quarter of 2026 it responded to 1,129 incident reports, with scams and fraud the most reported category at 348 incidents and around $860,000 in losses, and phishing and credential harvesting the second most common category.</p>
+<h3>2. Payments and invoices</h3>
+<p>Any process where staff pay by scanning a code is a potential target, whether that is a parking charge on a company card, a supplier invoice that includes a payment QR code, or a request to settle a small fee. The amounts per incident may be modest, but card details entered on a fake site can be reused for larger fraud. Requests to change how or where a business pays should always be checked through a separate, known channel, the same discipline that protects against <a href="https://www.cybercover.co.nz/blog/business-email-compromise-nz-most-common-claim/">business email compromise</a>.</p>
+<h3>3. Your customers, using your codes</h3>
+<p>Many businesses now display QR codes for menus, ordering, bookings, reviews or payment. Own Your Online's warning that scammers stick fake codes on top of real ones applies just as much to a café table or a shop counter as to a parking meter. If a customer scans a code on your premises and ends up on a fake payment page, the loss is theirs, but the damage to trust lands on your business.</p>
+
+<h2>Practical Controls for Businesses</h2>
+<p>The NCSC's advice in its QR code article is straightforward: check the web address of the page that opens after scanning and do not enter details if it looks wrong; be careful with codes that appear unexpectedly, look recently attached or sit on top of another code; be wary of urgent or time-sensitive requests linked to a code; and download apps only from official app stores rather than from a QR prompt. Its main recommendation for organisations is to build awareness of QR code misuse among employees. Building on that, a sensible set of business controls looks like this:</p>
+<ul>
+<li>Include QR codes in phishing awareness training, using real examples such as the fake parcel delivery emails, and make it clear that a code in an email deserves the same suspicion as a link.</li>
+<li>Give staff a simple rule: no work password is ever entered on a page reached by scanning a code in an unexpected message. If a system needs a login, open it from a bookmark or the official app.</li>
+<li>Use stronger multi-factor authentication. The NCSC's <a href="https://www.ncsc.govt.nz/protect-your-organisation/multi-factor-authentication-and-verification/" target="_blank" rel="noopener noreferrer">multi-factor authentication and verification guidance</a> recommends U2F physical security keys, warns that one-time codes from authenticator apps are vulnerable to phishing because they can be captured by fake pages, and advises training users to report any unexpected MFA prompt.</li>
+<li>Verify high-risk requests, such as payment changes and password resets, through a separate, pre-established channel, as the same NCSC guidance recommends.</li>
+<li>If your business displays QR codes, check them regularly. Print them in a way that makes tampering obvious, show the web address next to the code so customers can compare it, and tell customers which payment methods you actually use.</li>
+<li>Make reporting easy. A staff member who scanned something suspicious should feel able to say so immediately, without fear of blame.</li>
+</ul>
+
+<h2>If Someone Has Already Scanned and Entered Details</h2>
+<p>Speed matters. For card details, Police advice quoted by Auckland Transport is to contact your bank immediately, because "the sooner you act, the less chance scammers have to do any damage." For a work login, change the password straight away, end active sessions on the account, check for unfamiliar mailbox rules or forwarding, and alert whoever manages your IT. Anyone who sees parking machines being interfered with can contact Police or report online at 105.police.govt.nz, according to the same release.</p>
+<p>The NCSC asks people to report QR code phishing whether they were a victim or only targeted. Its <a href="https://www.ncsc.govt.nz/report/" target="_blank" rel="noopener noreferrer">reporting page</a> includes a "Report an online issue" tool for individuals and small businesses, and notes that almost half of the reports it receives are about phishing. Reports help the NCSC spot campaigns and warn others.</p>
+<p>If a compromised account held personal information about customers or staff, the Privacy Act may also be engaged. The Office of the Privacy Commissioner explains that a <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/536/" target="_blank" rel="noopener noreferrer">notifiable privacy breach</a> is one where personal information has been accessed, disclosed, altered, lost or destroyed without authorisation and it is reasonable to believe an affected individual has suffered serious harm or is likely to. The Office says its expectation is that such a breach is reported within 72 hours of becoming aware of it. Our guide to <a href="https://www.cybercover.co.nz/blog/nz-privacy-act-2020-cyber-insurance-mandatory-breach-notification/">how mandatory breach notification works</a> covers the process in more detail.</p>
+
+<h2>Where Cyber Insurance Fits</h2>
+<p>Insurance does not stop anyone scanning a fake code, and the controls above matter far more than any policy. Where it can help is in what follows. Depending on the policy wording, a cyber policy may respond to the costs of investigating a compromised account, restoring systems, getting legal advice on privacy notification and managing communications with affected people. Losses from being tricked into paying money can be treated differently from other cyber losses, so it is worth checking whether and how your wording covers social engineering and funds transfer fraud, including any sub-limits or conditions such as a requirement to verify payment changes. Our article on <a href="https://www.cybercover.co.nz/blog/social-engineering-fraud-nz-cyber-insurance/">social engineering fraud and cyber insurance</a> explains the distinction, and our guide to <a href="https://www.cybercover.co.nz/blog/cyber-insurance-exclusions-what-is-not-covered/">cyber insurance exclusions</a> covers the gaps buyers most often miss.</p>
 <p>If you would like to talk through cyber cover for your business, complete the enquiry form and your details will be passed to a referred adviser who can discuss your situation.</p>
     `,
   },
